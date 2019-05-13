@@ -1,0 +1,102 @@
+﻿@model BS_Project.EF.User
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', function (e) {
+            e.preventDefault();
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+            };
+            finder.popup();
+        })
+    </script>
+    }
+<section class="content-header">
+    <h1>
+        Chỉnh sửa thông tin tài khoản người dùng
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang Chủ</a></li>
+        <li><a href="/Store/Book/Index">Quản Lý Tài Khoản</a></li>
+        <li class="active">Chỉnh sửa</li>
+    </ol>
+</section>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })*@
+        @Html.HiddenFor(model => model.UserID)
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-body">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Mã Khách Hàng</label>
+                            <div>
+                                @Html.EditorFor(model => model.UserID, new { htmlAttributes = new { @class = "form-control" , reqiured = "reqiured"} })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Họ Tên</label>
+                            <div>
+                                @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                            </div>
+                        </div>
+                        @*<div class="form-group">
+                            <label>@Html.LabelFor(model => model.Birthday)</label>
+                            <div>
+                                <input type="date" name="Birthday" class="form-group" required="" />
+                            </div>
+                        </div>*@
+                        @Html.HiddenFor(model=> model.Username)
+                        @Html.HiddenFor(model => model.Password)
+                        @Html.HiddenFor(model => model.Birthday)
+                        @Html.HiddenFor(model => model.isActivated)
+                        @Html.HiddenFor(model => model.UserRoleID)
+                        <div class="form-group">
+                            <label>Số điện thoại</label>
+                            <div>
+                                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Email)</label>
+                            <div>
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Địa Chỉ</label>
+                            <div>
+                                @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Ảnh Đại Diện</label>
+                            <input class="form-control select2" name="txtImageURL" id="txtImage" value="@Html.DisplayFor(model => model.ImageURL)" />
+                            <a id="btnSelectImage" href="#">Chọn Hình ảnh</a>
+                            @*@Html.ValidationMessageFor(model => model.ImageURL, "", new { @class = "text-danger" })*@
+                        </div>
+
+                        <!--Image-->
+                        <div class="ImageContainer">
+                            <img id="img" src="@Html.DisplayFor(model => model.ImageURL)" width="80" />
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Lưu" class="btn btn-success" />
+                                <button class="btn btn-default">@Html.ActionLink("Trở về Trang Danh sách", "Profile")</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

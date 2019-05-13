@@ -1,0 +1,75 @@
+﻿.btn-add-comment {
+    background: #f8e50d;
+    border: 0px;
+    color: #333;
+    font-weight: 500;
+    font-size: 13px;
+    visibility: block;
+    position: relative;
+    right: 0px;
+    top: 20px;
+    width: 154px;
+    height: 40px;
+    float: right;
+}
+
+.btn-add-comment:hover {
+    background: #faf262;
+    color: #333;
+    border: 0px;
+}
+
+.sortable-announcement-item {
+    background-color: #e5ffe2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 1px;
+    padding-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.announcement-userimage {
+    float: left;
+    width: 35px;
+    height: 35px;
+    padding-right: 2px;
+}
+
+.sortable-item-date {
+    float: left;
+    padding-top: 1px;
+    font-size: 9pt;
+    width: 180px;
+}
+
+.announcement-user-name1 {
+    font-size: 10pt;
+    clear: both;
+    float: left;
+}
+
+.announcement-user-name2 {
+    font-size: 10pt;
+    float: left;
+    font-weight: bold;
+}
+
+.sortable-item-content {
+    margin-left: 35px;
+    clear: both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 9pt;
+    white-space: normal !important;
+    word-wrap: break-word; /* IE 5.5+ and CSS3 */
+    white-space: pre-wrap; /* CSS3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-break: break-word;
+}

@@ -1,0 +1,123 @@
+﻿@model BS_Project.EF.Book
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', function (e) {
+            e.preventDefault();
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+            };
+            finder.popup();
+        })
+    </script>
+}
+<section class="content-header">
+    <h1>
+        Create new book
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/Store/Book/Index">Book Management</a></li>
+        <li class="active">Create</li>
+    </ol>
+</section>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-body">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Name)</label>
+                            <div>
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        @*<div class="form-group">
+                            <label>@Html.LabelFor(model => model.Authors.First().Name, "AuthorID")</label>
+                            <div>
+                                @Html.DropDownList("AuthorID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                            </div>
+                        </div>*@
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Authors.First().Name, "AuthorID")</label>
+                            <div>
+                                @Html.DropDownList("AuthorID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Categories.First().Name, "CategoryID")</label>
+                            <div>
+                                @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.PublisherID, "PublisherID")</label>
+                            <div>
+                                @Html.DropDownList("PublisherID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                                @Html.ValidationMessageFor(model => model.PublisherID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.PublicationDate)</label>
+                            <div>
+                                @Html.EditorFor(model => model.PublicationDate, new { htmlAttributes = new { @class = "form-control", @type = "date", id = "PublicationDate", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.PublicationDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Overview)</label>
+                            <div>
+                                @Html.EditorFor(model => model.Overview, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Overview, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Details)</label>
+                            <div>
+                                @Html.EditorFor(model => model.Details, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Details, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Price)</label>
+                            <div>
+                                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.TotalQuantity)</label>
+                            <div>
+                                @Html.EditorFor(model => model.TotalQuantity, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.TotalQuantity, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ImageBool.Images.First().ImageURL)
+                            <input class="form-control select2" name="txtImageURL" id="txtImage" value="@Html.DisplayFor(model => model.ImageBool.Images.First().ImageURL)" required="required"/>
+                            <a id="btnSelectImage" href="#">Select Image</a>
+                            @Html.ValidationMessageFor(model => model.ImageBool.Images.First().ImageURL, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-success" />
+                        <button class="btn btn-default">@Html.ActionLink("Back to List", "Index")</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

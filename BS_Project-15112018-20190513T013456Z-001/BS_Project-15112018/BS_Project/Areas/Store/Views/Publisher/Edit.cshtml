@@ -1,0 +1,144 @@
+﻿@model BS_Project.EF.Publisher
+@{
+    ViewBag.Title = "Store - Publisher Management - Edit";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', function (e) {
+            e.preventDefault();
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+                $('#imgUrl').attr('src', url);
+                $('#imgUrl').css({ 'height': '120px', 'width': '100px' });
+            };
+            finder.popup();
+        });
+
+        //check name Publisher name
+        $('#txtPublisher').on('input', function () {
+            var text = $('#txtPublisher').val();
+            if (text === "") {
+                $("#checkNullPublisher").fadeIn(2000);
+                $('#txtPublisher').css("border", "1px solid red");
+                $("#btnSubmitPublisher").prop("disabled", true);
+            } else {
+                $('#checkNullPublisher').hide();
+                $('#txtPublisher').css("border", "1px solid #d2d6de");
+                $("#btnSubmitPublisher").prop("disabled", false);
+            }
+        });
+
+        $('#txtPublisher').click(function () {
+            var text = $('#txtPublisher').val();
+            if (text === "") {
+                $("#checkNullPublisher").fadeIn(2000);
+                $('#txtPublisher').css("border", "1px solid red");
+                $("#btnSubmitPublisher").prop("disabled", true);
+            }
+        });
+    </script>
+}
+
+<section class="content-header">
+    <h1>
+        Update
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/Store/Publisher/Index">Publisher Management</a></li>
+        <li class="active">Update</li>
+    </ol>
+</section>
+
+@using (Html.BeginForm("Edit", "Publisher", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <section class="content">
+        <!-- SELECT2 EXAMPLE -->
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <h3 class="box-title">Update Category</h3>
+
+            </div>
+            <!-- /.box-header -->
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.PublisherID)
+            <div class="box-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--Publisher ID-->
+                        <div class="form-group">
+                            <div class="box box-default">
+                                @Html.LabelFor(model => model.PublisherID, new { htmlAttributes = new { @class = "exampleInputEmail1" } })
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <input type="text" class="form-control select2" disabled="disabled" style="width: 100%;" value=@Model.PublisherID>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- /Publisher ID -->
+                        <!--Publisher Name-->
+                        <div class="form-group">
+                            <div class="box box-default">
+                                @Html.LabelFor(model => model.Name, new { htmlAttributes = new { @class = "exampleInputEmail1" } })
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @style = "width: 100%;", @id = "txtPublisher" } })
+                                            <font style="color:red;display:none" id="checkNullPublisher"><i class="fa fa-times-circle-o"></i>Tên nhà phát hành không được bỏ trống.</font>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                        <!--/Publisher Name-->
+                        <!-- Image -->
+                        <div class="form-group">
+                            <div class="box box-default">
+                                @Html.LabelFor(model => model.ImageURL, new { htmlAttributes = new { @class = "exampleInputEmail1" } })
+                                <div class="box-body">
+                                    <div class="row">
+                                        <div class="col-xs-7">
+                                            @Html.EditorFor(model => model.ImageURL, new { htmlAttributes = new { @class = "form-control", @style = "width: 100%;", @id = "txtImage", @disabled = true }, id = "txtImage" })
+                                            <a id="btnSelectImage" href="#">Select Image</a>
+                                        </div>
+
+                                        <div class="col-xs-5">
+                                            <img id="imgUrl" src="@Model.ImageURL" style="width:120px; height:100px" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @Html.ValidationMessageFor(model => model.ImageURL, "", new { @class = "text-danger" })
+                        </div>
+                        <!-- /.form-group -->
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary" id="btnSubmitPublisher" disabled>Save</button>
+                            <a href="/Store/Publisher" class="btn btn-info pull-right">Back</a>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+
+    </section>
+    <!-- /.content -->
+
+}

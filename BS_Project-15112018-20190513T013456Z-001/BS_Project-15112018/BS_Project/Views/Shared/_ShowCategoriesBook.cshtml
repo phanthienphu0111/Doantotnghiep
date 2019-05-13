@@ -1,0 +1,48 @@
+﻿@using BS_Project.EF;
+@using BS_Project.Models;
+@model PaggingModel
+<!-- mens -->
+<link href="~/Content/ShowBookStyle.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="~/Scripts/ShowBookFollowPrice.js"></script>
+<script src="~/Scripts/controller/ShowCategoriesBook.js"></script>
+
+<div class="col-md-4 products-left">
+    <div class="css-treeview">
+        <h4>Tất Cả Thể Loại</h4>
+        <ul class="tree-list-pad">
+            @foreach (var item in Model.Categories)
+            {
+                if (int.Parse(@Html.Action("GetCountForCategory", new { idCate = item.CategoryID }).ToString()) > 0)
+                {
+                    <li>
+                        <a class="showBookFollowCategory" id="@item.CategoryID">
+                            <label for="item-0">
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i> @item.Name (@Html.Action("GetCountForCategory", new { idCate = item.CategoryID }))
+                            </label>
+                        </a>
+                    </li>
+                }
+            }
+        </ul>
+    </div>
+    <br />
+    <div class="box-tools" style="float:left; margin-top: 10px; width: 350px;">
+        <div class="col-md-10 header-middle">
+            <form action="/Book/ShowBook" method="get" style="width: 350px;">
+                <input type="hidden" name="condition" value="4" />
+                <input type="search" id="keySearchMini" name="keysearch" placeholder="Tìm kiếm..." required="" style="height: 35px;">
+                <button type="submit" value=" " class="btn btn-default" style="margin-bottom: 3px;"><i class="fa fa-search"></i></button>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+        <br />
+    </div>
+    <div class="clearfix"></div>
+    <br />
+    @{
+        Html.RenderAction("ShowPriceBook", "Book");
+    }
+    <div class="clearfix"></div>
+</div>
+

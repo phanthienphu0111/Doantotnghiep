@@ -1,0 +1,43 @@
+﻿
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+@*<link rel="stylesheet" href="/resources/demos/style.css">*@
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $( function() {
+      $("#tags").on("input", function () {
+          var keySearch = $("#tags").val();
+          $.ajax({
+              type: "POST",
+              url: "/Category/GetAuthor",
+              data: {
+                  q: keySearch
+              },
+              datatype: "json",
+              contentType: 'application/x-www-form-urlencoded',
+              success: function (data) {
+                  $("#tags").autocomplete({
+                      source: data,
+                      autoFocus: true,
+                  });
+                  //alert(data);
+              },
+              error: function () {
+                  alert("Error occured!!")
+              }
+          });
+      });
+  } );
+</script>
+
+@using (Html.BeginForm("Index", "Author", FormMethod.Get))
+{
+    <div class="input-group input-group-sm" style="width: 250px;">
+        <input id="tags" type="text" value="@ViewBag.SearchString" name="searchString" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+}

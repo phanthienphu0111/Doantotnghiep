@@ -1,0 +1,38 @@
+﻿@{
+    var item = (User)ViewBag.User;
+}
+<div class="sidebar">
+    <!-- User Widget -->
+    <div class="widget user-dashboard-profile">
+        <!-- User Image -->
+        <div class="profile-thumb">
+            @if (@item.ImageURL == "")
+            {
+                <img id="user_img" src="~/Content/images/not-found.png" alt="" class="rounded-circle" />
+            }
+            else
+            {
+                <img id="user_img" src="~/Content/images/image profile/@item.ImageURL" alt="" class="rounded-circle" />
+            }
+        </div>
+        <!-- User Name -->
+        <h5 class="text-center">@item.Username</h5>
+        <p>Birthday @item.Birthday.ToLongDateString()</p>
+    </div>
+    <div class="widget user-dashboard-menu">
+        <ul>
+            <li>
+                @*method profileUser có trong controller có thể thay đổi và thêm vào method đó là tham số truyền vao là @item.Username
+                    bây giờ sử dụng dữ liệu mẫu nên không có tham số truyền vào*@
+                @*<form action="@Url.Action("ProfileUser","ProfileUser")">
+                    <input type="hidden" name="userID" value="@item.UserID">
+                    <button class="btn btn-link"><i class="fa fa-user"></i> History </button>
+                </form>*@
+                @*<a href="dashboard-my-ads.html"><i class="fa fa-user"></i> My Ads</a>*@
+            </li>
+            <li>
+                <a class="btn btn-default text-info" href="@Url.Action("OrderHistory",new { userName = item.Username })">History Order</a>
+            </li>
+        </ul>
+    </div>
+</div>

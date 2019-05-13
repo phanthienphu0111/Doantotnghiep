@@ -1,0 +1,146 @@
+﻿@model List<ThongKeDoanhThuTheoThang>
+@{
+    ViewBag.Title = "Thống kê";
+    ViewBag.Message = ViewBag.Title;
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+    List<ThongKeDoanhThuTheoNgay> lst2 = ViewBag.lst2;
+}
+@section styles{
+    <link href="https://canvasjs.com/assets/css/jquery-ui.1.11.2.min.css" rel="stylesheet" />
+    <style>
+        .ui-tabs-anchor {
+            outline: none;
+        }
+    </style>
+}
+
+@section jsFooter
+{
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script>
+      var options = {
+	        title: {
+		        text: "THỐNG KÊ DOANH THU THEO THÁNG"
+	        },
+	        animationEnabled: true,
+	        exportEnabled: true,
+	        data: [
+	        {
+		        type: "spline", //change it to line, area, column, pie, etc
+                    dataPoints: [
+                @foreach (var item in Model)
+                {
+                    WriteLiteral("{ x: "+item.Thang+", y: "+item.DoanhThu+" },");
+                }
+
+		        ]
+	        }
+	        ]
+        };
+
+        $("#chartContainer").CanvasJSChart(options);
+
+    </script>
+}
+<section class="content-header">
+    <h1>
+        @ViewBag.Title
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active"><a href="#">@ViewBag.Title</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <form class="form-inline" action="@Url.Action("Index")">
+                <div class="form-group">
+                    <label for="email">Xem từ ngày:</label>
+                    <input type="date" class="form-control" id="from" name="from">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">đến ngày:</label>
+                    <input type="date" class="form-control" id="to" name="to">
+                </div>
+                <button type="submit" class="btn btn-primary">Lọc</button>
+            </form>
+            <div>&nbsp;</div>
+        </div>
+        <div class="col-xs-12">
+            <div class="box">
+                <table class="table table-condensed table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Ngày</th>
+                            <th>Doanh thu</th>
+                            <th class="text-center"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ int i = 1; }
+                        @foreach (var item in lst2) {
+                        <tr>
+                            <td>@Html.DisplayFor(m=>item.Ngay)</td>
+                            <td>@Html.DisplayFor(m => item.DoanhThu)</td>
+                            <td class="text-center">
+                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-XemChiTiet@(i)">Xem chi tiết</button>
+                                <!-- Modal -->
+                                <div id="modal-XemChiTiet@(i++)" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-primary">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">Đơn hàng trong ngày @item.Ngay.Value.ToString("dd-MM-yyyy")</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Mã đơn hàng</th>
+                                                            <th>Tổng sách</th>
+                                                            <th>Thành tiền</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @foreach (var chitiet in item.DanhSachDonHang) {
+                                                        <tr>
+                                                            <td>#@chitiet.OrderID</td>
+                                                            <td>@chitiet.OrdersDetails.Sum(m=>m.Quantity)</td>
+                                                            <td>
+                                                                @((chitiet.OrdersDetails.Sum(m=>m.Quantity * m.Book.Price) ?? 0).ToString("#,##0").Replace(',','.')) VNĐ
+                                                            </td>
+                                                        </tr>}
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</section>
+

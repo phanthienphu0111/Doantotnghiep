@@ -1,0 +1,15 @@
+﻿.Container1 {
+    text-align: center;
+}
+
+.Container:before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Content1 {
+    display: inline-block;
+    vertical-align: middle;
+}

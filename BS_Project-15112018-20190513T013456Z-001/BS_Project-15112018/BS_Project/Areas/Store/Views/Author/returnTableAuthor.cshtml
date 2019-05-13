@@ -1,0 +1,180 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.Author>
+@using PagedList.Mvc
+<script src="~/Scripts/bootstrap.js"></script>  
+<link href="~/Content/animate.css" rel="stylesheet" />
+<link href="~/Content/rmodal.css" rel="stylesheet" />
+<script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<style type="text/css">
+    .modal .modal-dialog {
+        margin-top: 200px;
+        width: 400px;
+    }
+</style>
+
+
+
+<table id="example2" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th style="width:5%; text-align:center">@Html.DisplayNameFor(model => model.First().AuthorID)</th>
+            <th style="width:10%; text-align:center">@Html.DisplayNameFor(model => model.First().ImageBool.Images.FirstOrDefault().ImageURL)</th>
+            <th style="width:15%; text-align:center">@Html.DisplayNameFor(model => model.First().Name)</th>
+            <th style="width:15%; text-align:center">@Html.DisplayNameFor(model => model.First().PenName)</th>
+            <th style="width:30%; text-align:center">@Html.DisplayNameFor(model => model.First().Overview)</th>
+            <th style="width:10%; text-align:center">#</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="text-align:center">
+                @Html.DisplayFor(modelItem => item.AuthorID)
+            </td>
+            <td style="text-align:center">
+                @if (item.ImageBoolID == null)
+                {
+                    <img style="width:60px; height:80px" src="~/Content/images/Image.jpg" />
+                }
+                else
+                {
+                    <img style="width:60px; height:80px" src="@Html.DisplayFor(modelItem => item.ImageBool.Images.FirstOrDefault().ImageURL)" />
+                }
+            </td>
+            <td style="text-align:center">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td style="text-align:center">
+                @Html.DisplayFor(modelItem => item.PenName)
+            </td>
+            <td>
+                @Html.Action("ViewString", new { @id = @item.AuthorID })
+            </td>
+
+            <td style="text-align:center">
+                <a href="/Store/Author/Edit/@item.AuthorID" class="btn btn-default" style="width:50px"><i class="fa fa-fw fa-edit"></i></a>
+                <a name="showModal" class="btn btn-danger" style="width:50px">
+                    @*<i class="fa fa-fw fa-remove"></i>*@
+                    <input type="hidden" value="@item.Name" />
+                    <input type="hidden" id="xyz" value="@item.AuthorID" />
+                    <input type="hidden" id="abc" value="@item.ImageBool.Images.First().ImageURL" />
+                </a>
+
+
+
+                <div id="modal" class="modal">
+                    <div class="modal-dialog animated">
+                        <div class="modal-content">
+                            <form class="form-horizontal" method="get">
+                                <div class="modal-header">
+                                    <strong>Do you want delete Auhthor: <font id="nameAuthor"></font> không?</strong>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <a style="display:none" id="URLImageAuthor"></a>
+                                        <img height="295" width="220" id="imgAuthor" src="" />
+
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button style="width:100px" class="btn btn-default" type="submit" onclick="modal.close();">Cancel</button>
+                                    <button id="btnDel" style="width:100px" class="btn btn-primary" type="submit" onclick="modal.close();">OK</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </td>
+
+        </tr>
+    }
+
+</table>
+<div style="margin-bottom: 10px">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+</div>
+
+
+<script language="javascript">
+    //$(document).ready(function () {
+
+    //});
+    window.onload = function () {
+        var modal = new RModal(document.getElementById('modal'), {
+            //content: 'Abracadabra'
+            beforeOpen: function (next) {
+                console.log('beforeOpen');
+                next();
+            }
+            , afterOpen: function () {
+                console.log('opened');
+            }
+
+            , beforeClose: function (next) {
+                console.log('beforeClose');
+                next();
+            }
+            , afterClose: function () {
+                console.log('closed');
+            }
+            // , bodyClass: 'modal-open'
+            // , dialogClass: 'modal-dialog'
+            // , dialogOpenClass: 'animated fadeIn'
+            // , dialogCloseClass: 'animated fadeOut'
+
+            // , focus: true
+            // , focusElements: ['input.form-control', 'textarea', 'button.btn-primary']
+
+            // , escapeClose: true
+        });
+
+        document.addEventListener('keydown', function (ev) {
+            modal.keydown(ev);
+        }, false);
+
+        //document.getElementsByName('showModal')[1].addEventListener("click", function (ev) {
+        //    ev.preventDefault();
+        //    modal.open();
+        //}, false);
+
+        $("a[name='showModal']").click(function () {
+            $('#nameAuthor').text($(this).find('input[type=hidden]').val());
+            $('#URLImageAuthor').text($(this).find('input[id=abc]').val());
+            $('#btnDel').val($(this).find('input[id=xyz]').val());
+            //var a = $(this).find('input[id=xyz]').val();
+            var imgUrl = $('#URLImageAuthor').text();
+            //alert(a);
+            $("#imgAuthor").attr("src", imgUrl );
+            modal.open();
+        });
+
+
+
+
+        $("#btnDel").off('click').on('click', function (e) {
+            //Bỏ qua # trong href
+            e.preventDefault();
+            var id = $(this).val();
+            //var quantity = $(this).closest('tr').find("input").val();
+            //alert(id);
+            $.ajax({
+                data: {
+                    id: id
+                },
+                url: '/Category/DeleteByID',
+                dataType: 'json',
+                type: 'POST',
+                success: function (res) {
+                    if (res.status) {
+                        window.location.href = "/Store/Author/Index";
+                    }
+                }
+            });
+        });
+
+    }
+</script>
+
+
+

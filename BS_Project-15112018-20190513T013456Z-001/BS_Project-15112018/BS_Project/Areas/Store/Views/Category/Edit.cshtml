@@ -1,0 +1,116 @@
+﻿@model BS_Project.EF.Category
+@{
+    ViewBag.Title = "Store - Categories Management - Edit";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+
+    <script>
+        $('#txtNameEdit').on('input', function () {
+            var text = $("#txtNameEdit").val();
+            if (text === "") {
+                $("#nullNameEdit").fadeIn(2000);
+                $('#txtNameEdit').css("border", "1px solid red");
+                $("#btnEditCate").prop("disabled", true);
+            } else {
+                $.ajax({
+                    data: {
+                        name: text
+                    },
+                    url: '/Category/CheckNameInput',
+                    dataType: 'json',
+                    type: 'POST',
+                    success: function (res) {
+                        if (res.status) {
+                            $("#validateNameBookEdit").hide();
+                            $("#nullNameEdit").hide();
+                            $('#txtNameEdit').css("border", "0");
+                            $('#txtNameEdit').css("border", "1px solid #d2d6de");
+                            $("#btnEditCate").prop("disabled", false);
+                        } else {
+                            $("#validateNameBookEdit").fadeIn(2000);
+                            $('#txtNameEdit').css("border", "1px solid red");
+                            $("#btnEditCate").prop("disabled", true);
+                        }
+                    }
+                });
+            }
+
+        });
+
+        $('#txtNameEdit').click(function () {
+            var text = $("#txtNameEdit").val();
+            if (text === "") {
+                $("#nullNameEdit").fadeIn(2000);
+                $('#txtNameEdit').css("border", "1px solid red");
+                $("#btnEditCate").prop("disabled", true);
+            }
+
+        });
+    </script>
+}
+
+<section class="content-header">
+    <h1>
+        Update
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/Store/Category/Index">Category Management</a></li>
+        <li class="active">Update</li>
+    </ol>
+</section>
+
+
+@using (Html.BeginForm("Edit", "Category", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <section class="content">
+        <!-- SELECT2 EXAMPLE -->
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <h3 class="box-title">Update Category</h3>
+
+            </div>
+            <!-- /.box-header -->
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.CategoryID)
+            <div class="box-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            @Html.DisplayNameFor(model => model.CategoryID)
+                            <input type="text" class="form-control select2" disabled="disabled" style="width: 100%;" value=@Model.CategoryID>
+
+                        </div>
+                        <!-- /.form-group -->
+                        <div class="form-group">
+                            @Html.DisplayNameFor(label => label.Name)
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control select2", @style = "width: 100%;", @id = "txtNameEdit" } })
+                            <font style="color:red;display:none" id="validateNameBookEdit">Tên thể loại sách đã tồn tại. Vui lòng nhập thể loại khác</font>
+                            <font style="color:red;display:none" id="nullNameEdit">Tên thể loại không được bỏ trống.</font>
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+
+                        </div>
+
+                        <!-- /.form-group -->
+                        <div class="box-footer">
+                            <input type="submit" value="Save" class="btn btn-primary" id="btnEditCate" />
+                            <a href="/Store/Category" class="btn btn-info pull-right">Back</a>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+
+    </section>
+    <!-- /.content -->
+}
+

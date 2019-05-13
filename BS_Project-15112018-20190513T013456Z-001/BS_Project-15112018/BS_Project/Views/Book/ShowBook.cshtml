@@ -1,0 +1,122 @@
+﻿@using BS_Project.EF;
+@model List<Book>
+
+@{
+    ViewBag.Title = "ShowBook";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section jsFooter{
+
+}
+
+@*phần này để code Jquery*@
+<script src="~/Scripts/ShowBook.js"></script>
+
+<!-- /banner_bottom_agile_info -->
+<div class="page-head_agile_info_w3l">
+    <div class="container">
+        @*hiển thị được dẫn*@
+        @{
+            int condition = 0;
+            //kiểm tra đã có tham số url condition khi truyền bên home qua chưa
+            if (Request.QueryString["condition"] != null)
+            {
+                condition = int.Parse(Request.QueryString["condition"].ToString());
+            }
+        }
+        <h3>BS <span style="color: red">BOOK  </span></h3>
+        <!--/w3_short-->
+        <div class="services-breadcrumb">
+            <div class="agile_inner_breadcrumb">
+
+                <ul class="w3_short">
+                    <li><a href="/">TRANG CHỦ</a><i>|</i></li>
+                    @{
+                        // condition = 1 show ra sách theo thể loại
+                        if (condition == 1)
+                        {
+                            <li>THỂ LOẠI</li>
+                        }
+                        //condition = 2 hiển thị theo nhà phát hành
+                        else if (condition == 2)
+                        {
+                            <li>NHÀ XUẤT BẢN</li>
+                        }
+                        // condition = 3 hiển thị tất cả các sách
+                        else if (condition == 3)
+                        {
+                            <li>TẤT CẢ</li>
+                        }
+                        // condition = 4 hiển thị sách theo keysearch
+                        else if (condition == 4)
+                        {
+                            <li>TÌM KIẾM</li>
+                        }
+                    }
+
+                </ul>
+            </div>
+        </div>
+        <!--//w3_short-->
+    </div>
+</div>
+<!-- banner-bootom-w3-agileits -->
+<!-- banner-bootom-w3-agileits -->
+<div class="banner-bootom-w3-agileits">
+    <div class="container">
+        @{
+            Html.RenderAction("ShowCategoriesBook", "Book");
+        }
+        <div class="col-md-8 products-right">
+            <div class="sort-grid">
+                <div class="sorting">
+                    <h6>Bộ Lọc</h6>
+                    <select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
+                        <option value="0">Mặc định</option>
+                        <option value="1">Số lượt xem</option>
+                        <option value="2">Ngày xuất bản</option>
+                        <option value="3">Theo số thứ tự</option>
+                    </select>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            @*cái này để dùng hiển thị sách*@
+            @*để div listbook để ajax có thể trả về*@
+            @*nếu condition = 1 hiển thị danh sách theo thể loại*@
+            <div id="listBook">
+                @{
+                    // condition = 1 show ra sách theo thể loại
+                    if (condition == 1)
+                    {
+                        Html.RenderAction("ShowBookFollowCategory", "Book");
+                        //condition = 2 sắp xếp theo nhà phát hành
+                    }
+                    else if (condition == 2)
+                    {
+                        Html.RenderAction("ShowBookFollowPublisher", "Book");
+                    }
+                    // condition = 3 hiển thị tất cả các sách
+                    else if (condition == 3)
+                    {
+                        Html.RenderAction("ShowAllBook", "Book");
+                    }
+                    // condition = 4 hiển thị sách theo keysearch
+                    else if (condition == 4)
+                    {
+                        Html.RenderAction("ShowBookFollowKeySearch", "Book");
+                    }
+                    //condition = 5 hiển thị sách theo giá tiền
+                    else if(condition == 5)
+                    {
+                        Html.RenderAction("ShowBookFollowPrice", "Book");
+                    }
+                }
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+</div>

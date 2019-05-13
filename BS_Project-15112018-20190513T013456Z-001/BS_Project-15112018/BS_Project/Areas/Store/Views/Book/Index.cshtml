@@ -1,0 +1,233 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.Book>
+@using PagedList.Mvc
+<link href="~/Content/imagecenter.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.js"></script>
+<link href="~/Content/animate.css" rel="stylesheet" />
+<link href="~/Content/rmodal.css" rel="stylesheet" />
+<script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<style type="text/css">
+
+    .modal .modal-dialog {
+        margin-top: 200px;
+        width: 60%;
+    }
+</style>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/pop.css" rel="stylesheet" />
+<section class="content-header">
+    <h1>
+        Book Information
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/Store/Book">Book Management</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <div class="input-group-btn">
+                        <a class="btn btn-primary" href="/Store/Book/Create">Create new</a>
+                    </div>
+                    <div class="box-tools" style="float:right; margin: 10px 10px 10px 10px">
+                        @using (Html.BeginForm("Index", "Book", FormMethod.Get))
+                        {
+
+                            <div class="input-group input-group-sm" style="width: 250px;">
+                                <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Search">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <table class="table table-bordered table-hover" style="min-height:300px">
+                    <tr>
+                        <th style="width: 20%; text-align: center">
+                            Hình ảnh
+                        </th>
+                        <th style="width:20% ; text-align: center">
+                            Tên Sách
+                        </th>
+                        <th style="width:20%; text-align: center">
+                            Tác Giả
+                        </th>
+                        <th style="width: 10%; text-align: center">
+                            Nhà Xuất Bản
+                        </th>
+                        <th style="text-align: center">
+                            Ngày Xuất Bản
+                        </th>
+                        <th style="width: 20%; text-align: center">
+                            Chức năng
+                        </th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <div class="Container1">
+                                    <div class="Content1">
+                                        <img style="width:60px; height:90px" src="@Html.DisplayFor(modelItem => item.ImageBool.Images.FirstOrDefault().ImageURL)" />
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="text-align: center;">
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td style="text-align: center;">
+                                @Html.DisplayFor(modelItem => item.Authors.FirstOrDefault().Name)
+                            </td>
+                            <td style="text-align: center;">
+                                @Html.DisplayFor(modelItem => item.Publisher.Name)
+                            </td>
+                            <td style="text-align: center;">
+                                <p>@item.PublicationDate.Value.ToShortDateString()</p>
+                            </td>
+                            <td style="text-align: center">
+                                <a class="btn btn-default" href="/Store/Book/Edit/@item.BookID" style="width:50px"><i class="fa fa-fw fa-edit"></i></a>
+                                @*<button class="btn btn-danger" style="width:50px">
+                                    <i class="fa fa-fw fa-remove"></i>
+                                </button>*@
+                                <a name="showModal" class="btn btn-default" style="width:50px">
+                                    <i class="fa fa-fw fa-clipboard"></i>
+                                    <input type="hidden" value="@item.Name" />
+                                    <input type="hidden" id="xyz" value="@item.BookID" />
+                                    <input type="hidden" id="abc" value="@item.ImageBool.Images.First().ImageURL" />
+                                    <input type="hidden" id="abcd" value="@item.Publisher.Name" />
+                                    <input type="hidden" id="abcde" value="@item.Details" />
+                                    <input type="hidden" id="abcdf" value="@item.Authors.FirstOrDefault().Name" />
+                                    <input type="hidden" id="abcdfe" value="@item.PublicationDate.Value.ToShortDateString()" />
+                                    <input type="hidden" id="abcdfef" value="@item.Categories.FirstOrDefault().Name" />
+                                </a>
+                                <div id="modal" class="modal">
+                                    <div class="modal-dialog animated">
+                                        <div class="modal-content">
+                                            <form class="form-horizontal" method="get">
+                                                <div class="modal-header">
+                                                    <button style="width:100px; float:right;width:50px" class="btn btn-danger" onclick="modal.close();"><i class="fa fa-fw fa-remove"></i></button>
+                                                    <strong>Chi tiết: <font id="nameBook"></font></strong>
+                                                </div>
+                                                <Center>
+                                                    <div class="modal-body">
+                                                        <div>
+                                                            <div style="float: left; margin-right:2px">
+                                                                <a style="display:none" id="URLImageBook"></a>
+                                                                <img height="295" width="220" id="imgBook" src="" />
+                                                            </div>
+                                                            <div>
+                                                                <table class="table table-bordered table-hover" style="width:60%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p>Tác giả:</p>
+                                                                        </td>
+                                                                        <td>
+                                                                            <p><font id="textAT" /></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p>Thể loại:</p>
+                                                                        </td>
+                                                                        <td>
+                                                                            <p><font id="textCT" /></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p>Nhà xuất bản:</p>
+                                                                        </td>
+                                                                        <td>
+                                                                            <p><font id="textPLS" /></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p>Ngày xuất bản:</p>
+                                                                        </td>
+                                                                        <td>
+                                                                            <p><font id="textDT" /></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <p>Mô tả:</p>
+                                                                        </td>
+                                                                        <td>
+                                                                            <p><font id="textOV" /></p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </Center>
+                                                <div class="modal-footer">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script language="javascript">
+    window.onload = function () {
+        var modal = new RModal(document.getElementById('modal'), {
+            //content: 'Abracadabra'
+            beforeOpen: function (next) {
+                console.log('beforeOpen');
+                next();
+            }
+            , afterOpen: function () {
+                console.log('opened');
+            }
+
+            , beforeClose: function (next) {
+                console.log('beforeClose');
+                next();
+            }
+            , afterClose: function () {
+                console.log('closed');
+            }
+
+        });
+
+        document.addEventListener('keydown', function (ev) {
+            modal.keydown(ev);
+        }, false);
+        $("a[name='showModal']").click(function () {
+            $('#nameBook').text($(this).find('input[type=hidden]').val());
+            $('#URLImageBook').text($(this).find('input[id=abc]').val());
+            $('#btnDel').val($(this).find('input[id=xyz]').val());
+            $('#textPLS').text($(this).find('input[id=abcd]').val());
+            $('#textOV').text($(this).find('input[id=abcde]').val());
+            $('#textAT').text($(this).find('input[id=abcdf]').val());
+            $('#textDT').text($(this).find('input[id=abcdfe]').val());
+            $('#textCT').text($(this).find('input[id=abcdfef]').val());
+            var imgUrl = $('#URLImageBook').text();
+            //alert(imgUrl);
+            $("#imgBook").attr("src", imgUrl);
+            modal.open();
+        });
+
+    }
+</script>
+
+

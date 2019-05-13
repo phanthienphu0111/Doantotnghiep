@@ -1,0 +1,90 @@
+﻿@model List<BS_Project.Models.CartItem>
+@using BS_Project.DAO;
+@{
+    ViewBag.Title = "Thanh Toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int userID = Convert.ToInt32(Session["userID"]);
+    var dao = new UserDAO();
+    var name = dao.getName(userID);
+    var phone = dao.getPhone(userID);
+    var add = dao.getAddress(userID);
+    var email = dao.getEmail(userID);
+}
+
+@userID
+
+
+<div class="new_arrivals_agile_w3ls_info">
+    <div class="container">
+        <h3 class="wthree_text_info">
+            <span>THANH TOÁN</span>
+        </h3>
+        <div class="col-md-6">
+            @if (Model.Count > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr style="background-color:#808080">
+                            <td>Picture</td>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>Quantity</td>
+                            <td>Total</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr style="background-color:#e6d4d4">
+                                <td><img src="@item.Books.ImageBool.Images.FirstOrDefault().ImageURL" style="height:100px; width:70px"></td>
+                                <td>@item.Books.Name</td>
+                                <td>@item.Books.Price.GetValueOrDefault(0).ToString("N0")</td>
+                                <td>
+                                    <input min="1" max="3" type="number" value="@item.Quantity" class="txtQuantity" data-id="@item.Books.BookID" />
+                                </td>
+                                <td>@((item.Books.Price.GetValueOrDefault(0) * item.Quantity).ToString("N0"))</td>
+                                <td><a href="#" data-id="@item.Books.BookID" class="btn-delete"><span class="glyphicon glyphicon-remove"></span></a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+        <div class="col-md-5">
+
+            @using (Html.BeginForm(new { id = "payment_form" }))
+            {
+
+                    <div class="form-group">
+                        <b><label>Tên khách hàng</label></b> <br />
+                        <input name="CustName" id="custname" class="form-control" type="text"  value="@name" required=""/>
+                    </div>
+                    <div class="form-group">
+                        <b><label>Số điện thoại</label></b> <br />
+                        <input name="CustPhone" id="custphone" class="form-control" type="text"  value="@phone" required=""/>
+                        <div id="alertPhone" class="alert alert-warning">
+                            Vui lòng nhập Số điện thoại của bạn.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <b><label>Địa chỉ</label></b> <br />
+                        <input name="CustAdd" id="custadd" class="form-control" type="text" value="@add" required=""/>
+                        <div id="alertAdd" class="alert alert-warning">
+                            Vui lòng nhập Địa chỉ của bạn.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <b><label>Email</label></b> <br />
+                        <input name="CustEmail" type="email" id="custemail" class="form-control"  value="@email" required=""/>
+                    </div>
+                    <div class="form-group">
+                        <b><label>Thanh toán trực tuyến</label></b> <br />
+                        <input name="thanhtoantructuyen" type="checkbox" value="true" />
+                    </div>
+                    <button type="submit" name="payment" value="THANH TOÁN" class="btn btn-success" onclick="Payment()" style="width: 200px">THANH TOÁN</button>
+            }
+        </div>
+    </div>
+</div>
+

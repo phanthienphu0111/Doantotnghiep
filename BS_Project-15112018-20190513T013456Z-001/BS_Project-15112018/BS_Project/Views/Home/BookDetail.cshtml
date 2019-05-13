@@ -1,0 +1,151 @@
+﻿@using BS_Project.EF
+@using BS_Project.DAO;
+@model Book
+@{
+    ViewBag.Title = "BookDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="@Url.Content("~/Content/bookdetail.css")" rel="stylesheet" type="text/css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+
+<script src="~/Scripts/BookDetail.js"></script>
+<div class="container">
+    <div class="col-md-4 single-right-left ">
+        <div class="grid images_3_of_2">
+            <div class="flexslider">
+                <div class="slides" style="text-decoration:none">
+                    @*<li data-thumb="" >*@
+                    <div style="width: 250px; height:360px" class="thumb-image"> <img src="@Model.ImageBool.Images.FirstOrDefault().ImageURL" data-imagezoom="true" class="img-responsive"> </div>
+                    @*</li>*@
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8 single-right-left simpleCart_shelfItem">
+        <h3>@Model.Name</h3>
+        <p><span class="item_price">@Html.Action("FormatMoney", new { money = @Model.Price })  Đ</span></p>
+        <div class="rating1">
+            <span class="starRating">
+                <input id="rating5" type="radio" name="rating" value="5">
+                <label for="rating5">5</label>
+                <input id="rating4" type="radio" name="rating" value="4">
+                <label for="rating4">4</label>
+                <input id="rating3" type="radio" name="rating" value="3" checked="">
+                <label for="rating3">3</label>
+                <input id="rating2" type="radio" name="rating" value="2">
+                <label for="rating2">2</label>
+                <input id="rating1" type="radio" name="rating" value="1">
+                <label for="rating1">1</label>
+            </span>
+        </div>
+        <div class="color-quality">
+            <div class="color-quality-right">
+                @*<h5><b5>Tác giả:</b5>@Model.Authors.FirstOrDefault().Name</h5>*@
+                <h5><b5>Tác giả:</b5>@Html.TextBoxFor(x => x.Authors.FirstOrDefault().Name)</h5>
+                <h5><b5>Thể loại:</b5>@Model.Categories.FirstOrDefault().Name</h5>
+                <h5><b5>Nhà xuất bản:</b5>@Model.Publisher.Name</h5>
+                <h5><b5>Ngày phát hành:</b5>@Model.PublicationDate.Value.ToShortDateString()</h5>
+                <h5><b5>View:</b5>@Model.ViewCount</h5>
+            </div>
+        </div>
+        <div class="occasion-cart">
+            <div id="@Model.BookID" class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" name="addToCart">
+                Thêm vào giỏ hàng
+            </div>
+
+        </div>
+
+        <ul class="social-nav model-3d-0 footer-social w3_agile_social single_page_w3ls">
+            <li class="share">Share On : </li>
+            <li>
+                <a href="#" class="facebook">
+                    <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="twitter">
+                    <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="instagram">
+                    <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="pinterest">
+                    <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- /new_arrivals -->
+    <div class="responsive_tabs_agileits">
+        <div id="horizontalTab">
+            <ul class="resp-tabs-list">
+                <li>Description Letter</li>
+                <li>Reviews Author</li>
+            </ul>
+            <div class="resp-tabs-container">
+                <!--/tab_one-->
+                <div class="tab1">
+                    <div class="single_page_agile_its_w3ls">
+                        <p>@Model.Overview</p>
+                        <p>@Model.Details</p>
+                    </div>
+                </div>
+                <!--//tab_one-->
+                <div class="tab2">
+                    @Html.Action("returnAuthor", "Author", new { bookID = Model.BookID })
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //new_arrivals -->
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="comment" class="comment-box">
+                <div class="comment-title" style="margin-top: 30px;">
+                    <b>Bình luận về sản phẩm</b>
+                </div>
+                <div class="resp-tabs-container">
+                    <div class="tab1">
+                        <div class="single_page_agile_its_w3ls">
+                            @*<div style="width: 200px; height: 100px;">sdfdsf</div>*@
+                            @{
+                                string numberBoardAnnouncement = string.Empty;
+                                List<Comment> cmt = CommentsDAO.GetComments(Model.BookID);
+                                foreach (Comment d in cmt)
+                                {
+                                    string detailComments = "detailComments" + d.CommentID;
+                                    numberBoardAnnouncement += string.Format("{0}{1}", (numberBoardAnnouncement != string.Empty) ? "," : "", d.CommentID);
+                                    <div id="@detailComments" class="sortable-item-detail">
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br />
+    @{
+        int BookID = Model.BookID;
+        var userName = Session["userHello"];
+        var userID = Session["UserID"];
+    }
+    <p class="form" id="comment-form" style="visibility: hidden">
+        <input type="text" name="content" id="comment_content" class="form-control" placeholder="Hãy đóng góp ý kiến của bạn ở đây." />
+        <button type="button" id="btnRegisterComments" class="btn btn-primary btn-add-comment" onclick="RegisterComments();">Thêm bình luận</button>
+        <input type="hidden" id="BookID" value="@BookID" />
+        <input type="hidden" id="userName" value="@userName" />
+        <input type="hidden" id="userID" value="@userID" />
+        <input type="hidden" id="hdnNumberBoardAnnouncement" value="@numberBoardAnnouncement" />
+    </p>
+</div>

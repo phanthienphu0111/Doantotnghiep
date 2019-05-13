@@ -1,0 +1,19 @@
+﻿@using BS_Project.EF;
+@using BS_Project.Models;
+@model PaggingModel
+
+<div class="box filter-price" style="border: 1px solid #d2d2d2">
+    <div class="filter-price-title">Đơn Giá</div>
+    <ul>
+        @foreach (var item in Model.Price)
+        {
+            <li style="list-style-type: none; margin-left: 5px;">
+                <a @*href="@Url.Action("ShowBookFollowPrice", "Book", new { priceFrom = @item.PriceFrom, priceTo = item.PriceTo})"*@ class="showBookPrice" id="@item.FilterID">
+                    <label style="width: 100px;" id="PriceFrom">@item.PriceFrom&nbsp;đ</label> -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label style="width: 100px;" id="PriceTo">@item.PriceTo&nbsp;đ</label>(@Html.Action("GetCountBookFollowPrice", new { priceFrom = @item.PriceFrom, priceTo = @item.PriceTo }))
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+
+

@@ -1,0 +1,141 @@
+﻿@using BS_Project.EF;
+@using BS_Project.Models;
+@model PaggingModel
+
+@*Phân trang realtime theo yêu cầu khán giả*@
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#0page').css("background-color", "red");
+        $('.page-link').click(function () {
+
+            // lấy ra giá trị đang selected để truyển cho ajax
+            var sortID = $('#country1').find(":selected").val();
+
+            var page = $(this).attr('id').replace('page', '');
+            //dùng để remove màu
+            var pageRemove = $(this).attr('id');
+            //tô màu thẻ a
+            $(this).css("color", "red");
+
+            //tạo ra lastpage và firstpage cho phân trang
+            if (page == "First Page") {
+                page = "0page";
+            }
+            else if (page == "Last Page") {
+                page = $('#lastPage').val().replace('page', '');
+            }
+
+            $.ajax({
+                type: "GET",
+                url: "/Book/ShowAllBook",
+                data: {
+                    sortID: sortID, page: page
+                },
+                datatype: "html",
+                contentType: 'application/x-www-form-urlencoded',
+                success: function (data) {
+                    $('#listBook').html(data);
+                    $('#0page').css("background-color", "transparent");
+                    $('#' + pageRemove + '').css("background-color", "red");
+                },
+                error: function () {
+                    alert("Error occured!!")
+                }
+            });
+        })
+    });
+</script>
+@foreach (var book in Model.Books)
+{
+    <div class="col-md-4 product-men">
+        <div class="men-pro-item simpleCart_shelfItem">
+            <div class="men-thumb-item">
+                @*html.action gọi method từ controller*@
+                <img style="height:200px" src="@Html.Action("GetFirstImage", new { idImage = book.ImageBoolID })" alt="" class="pro-image-front">
+                <img style="height:200px" src="@Html.Action("GetFirstImage", new { idImage = book.ImageBoolID })" alt="" class="pro-image-back">
+                <div class="men-cart-pro">
+                    <div class="inner-men-cart-pro" style="background-color:#2fdab8;z-index:20000000000;color:#fff">
+                        <p>@book.Overview</p>
+                        <a href="@Url.Action("BookDetail", "Home", new { id = @book.BookID})" class="link-product-add-cart">Quick View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-info-product ">
+
+                <h4 style="height:30px;width: 90%;margin:auto"><a href="@Url.Action("BookDetail", "Home", new { id = @book.BookID})">@book.Name</a></h4>
+                <div class="info-product-price">
+                    <span class="item_price">@Html.Action("FormatMoney", new { money = @book.Price }) Đ</span>
+                </div>
+                @if (book.TotalQuantity > 0)
+                {
+                <div id="@book.BookID" class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" name="addToCart" style="cursor:pointer; height: 37px; line-height: 37px;">
+                    Thêm vào giỏ hàng
+                </div>
+                }
+                else
+                {
+                    <div class="alert alert-danger">
+                        <h5>Đã hết hàng</h5>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+@if (Model.TotalPage > 1)
+{
+    <div class="paging">
+        <ul class="pagination" style="float:right;">
+            @{
+                int condition = 0;
+                //truyền condition để biết sách đang hiển thị theo kiểu nào
+                if (Request.Params["condition"] != null)
+                {
+                    condition = int.Parse(Request.QueryString["condition"].ToString());
+                }
+                int sortID = 0;
+                if (Request.Params["sortID"] != null)
+                {
+                    sortID = int.Parse(Request.QueryString["sortID"].ToString());
+                }
+            }
+
+            @*ẩn firstpage khi đang ở page 0*@
+            @if (Request.QueryString["page"] != null)
+            {
+                if (int.Parse(Request.QueryString["page"]) > 0)
+                {
+                    <li class="page-item">
+                        @*@Html.ActionLink("First Page", "ShowBook", "Book", new {page = 0, condition = condition, sortID = sortID }, new { @class = "page-link" })*@
+                        <a id="0page" style="cursor:pointer" class="page-link">Trang đầu</a>
+                    </li>
+                }
+            }
+            @for (var i = 1; i <= Model.TotalPage; i++)
+            {
+                @*<li>@Html.ActionLink(i.ToString(), "ShowBook", "Book", new {page = i - 1, condition = condition, sortID = sortID }, null)</li>*@
+                <li><a style="cursor:pointer" id="@(i - 1)page" class="page-link">@i</a></li>
+            }
+            @*ẩn lastpage khi đang ở page cuối cùng*@
+            @if (Request.QueryString["page"] != null)
+            {
+                if (int.Parse(Request.QueryString["page"]) < (Model.TotalPage - 1))
+                {
+                    <li class="page-item">
+                        @*@Html.ActionLink("Last Page", "ShowBook", "Book", new {page = Model.TotalPage - 1, condition = condition, sortID = sortID }, new { @class = "page-link" })*@
+                        <a style="cursor:pointer" id="@(Model.TotalPage - 1)page" class="page-link">Trang cuối</a>
+                        <input id="lastPage" type="hidden" value="@(Model.TotalPage - 1)-" />
+                    </li>
+                }
+            }
+            else
+            {
+                <li class="page-item">
+                    @*@Html.ActionLink("Last Page", "ShowBook", "Book", new {page = Model.TotalPage - 1, condition = condition, sortID = sortID }, new { @class = "page-link" })*@
+                    <a style="cursor:pointer" id="@(Model.TotalPage - 1)page" class="page-link">Trang cuối</a>
+                    <input id="lastPage" type="hidden" value="@(Model.TotalPage - 1)-" />
+                </li>
+            }
+        </ul>
+    </div>
+}

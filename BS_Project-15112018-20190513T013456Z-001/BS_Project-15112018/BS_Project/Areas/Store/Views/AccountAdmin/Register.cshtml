@@ -1,0 +1,129 @@
+﻿@model BS_Project.EF.User
+@{
+    ViewBag.Title = "Register";
+    Layout = null;
+}
+
+<head>
+    <title>Trang Đăng Ký - WEBSITE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="~/Content/registeradmin.css" rel="stylesheet" media="all" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <script src="~/Scripts/registerAdmin.js"></script>
+</head>
+<form action="Register" class="register" id="FormRegister" method="post">
+    <h1>Trang Đăng Ký Quản Lý</h1>
+    <div id="errMsg">
+        <p id="errMessage" style="color: red; margin: 0px 0px 0px 18px;"></p>
+    </div>
+    <fieldset class="row1">
+        <legend>
+            Thông tin tài khoản
+        </legend>
+        <p>
+            <label>
+                Tên đăng nhập <span style="color: red;">(*)</span>
+            </label>
+            @Html.TextBoxFor(m => m.Username, new { @class = "form-control", required = "required", id = "Username"})
+            <button class="btn-active" onclick="CheckUsername();">Kiểm tra</button>
+            <span style="color: green;" id="annoumtUser"></span>
+        </p>
+        <p>
+            <label>
+                Email <span style="color: red;">(*)</span>
+            </label>
+            @Html.TextBoxFor(m => (m.Email), new { @class = "form-control", required = "required", id = "Email", @onchange = "CheckFormatEmail();" })
+            <label>
+                Nhập lại email <span style="color: red;">(*)</span>
+            </label>
+            <input type="text" id="reEmail" required="" />
+        </p>
+        <p>
+            <label>
+                Mật khẩu <span style="color: red;">(*)</span>
+            </label>
+            @Html.PasswordFor(m => (m.Password), new { @class = "form-control", required = "required", id = "Pass" })
+            <label>
+                Nhập lại Mật khẩu <span style="color: red;">(*)</span>
+            </label>
+            <input type="password" id="rePass" required=""/>
+            <label class="obinfo">
+                (*) Bắt buộc nhập
+            </label>
+        </p>
+    </fieldset>
+    <fieldset class="row2">
+        <legend>
+            Thông tin cá nhân
+        </legend>
+        <p>
+            <label>
+                Họ Tên <span style="color: red;">(*)</span>
+            </label>
+            @Html.TextBoxFor(m => (m.FullName), new { @class = "form-control long", required = "required", id = "FullName" })
+        </p>
+        <p>
+            <label>
+                Số điện thoại <span style="color: red;">(*)</span>
+            </label>
+            @Html.TextBoxFor(m => (m.Phone), new { id = "txtPhone", @class = "form-control", required = "required", @maxlength = "10" })
+        </p>
+        <p>
+            <label>
+                Địa chỉ <span style="color: red;">(*)</span>
+            </label>
+            @Html.TextBoxFor(m => m.Address, new { id = "txtAddress", @class = "form-control long", required = "required" })
+        </p>
+    </fieldset>
+    <fieldset class="row3">
+        <legend>
+            Những thông tin khác
+        </legend>
+        <p>
+            <label>Giới tính <span style="color: red;">(*)</span></label>
+            <input type="radio" name="gender" value="radio" />
+            <label class="gender">Nam</label>
+            <input type="radio" name="gender" value="radio" />
+            <label class="gender">Nữ</label>
+        </p>
+        <p>
+            <label>
+                Ngày sinh <span style="color: red;">(*)</span>
+            </label>
+            <input type="date" class="form-control" id="birthday" name="Birthday" required="">
+        </p>
+        <div class="infobox">
+            <h4>GIỚI THIỆU VỀ QT's BOOKSTORE</h4>
+            <p>Với mục tiêu tạo ra những trải nghiệm mua sắm trực tuyến tuyệt vời, QT's BS luôn nỗ lực không ngừng nhằm nâng cao chất lượng dịch vụ. Khi mua hàng qua mạng tại QT's BS khách hàng sẽ được hưởng rất nhiều tiện ích khác nhau.</p>
+        </div>
+    </fieldset>
+    <fieldset class="row4">
+        <legend>
+            Điều khoản sử dụng
+        </legend>
+        <p class="agreement">
+            <input type="checkbox" value="" id="term_1"/>
+            <label>*  Tôi đồng ý <a href="https://hotro.tiki.vn/hc/vi/articles/201971214">Các Điều Khoản Sử Dụng bao gồm: </a></label>
+        </p>
+        <p class="agreement">
+            @*<input type="checkbox" value="" id="term_2"/>*@
+            <label>	&#9679;Tôi muốn nhận được các thông tin ưu đãi từ QT's BS</label>
+        </p>
+        <p class="agreement">
+            @*<input type="checkbox" value="" id="term_3"/>*@
+            <label>	&#9679;Cho phép QT's BS chia sẻ thông tin của tôi cho các đối tác thứ 3.</label>
+        </p>
+    </fieldset>
+    <div><button class="button" onclick="RegisterAdmin(); return false;">ĐĂNG KÝ &raquo;</button></div>
+</form>
+
+
+
+<div class="footer-bar">
+    <span class="article-wrapper">
+        <span class="article-label">Trang Quản Lý của QT BookStore: </span>
+        <span class="article-link"><a href="https://localhost:44324">Đồ án Tốt Nghiệp Phan Thiên Phú</a></span>
+    </span>
+</div>
