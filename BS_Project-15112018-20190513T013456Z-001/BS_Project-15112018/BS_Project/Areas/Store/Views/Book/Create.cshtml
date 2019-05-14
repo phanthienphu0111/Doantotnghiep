@@ -39,7 +39,7 @@
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.Name)</label>
                             <div>
-                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", required = "required", id = "bookname" } })
                                 @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
                             </div>
                         </div>
@@ -52,19 +52,19 @@
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.Authors.First().Name, "AuthorID")</label>
                             <div>
-                                @Html.DropDownList("AuthorID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                                @Html.DropDownList("AuthorID", null, htmlAttributes: new { @class = "form-control", required = "required", id = "authorname" })
                             </div>
                         </div>
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.Categories.First().Name, "CategoryID")</label>
                             <div>
-                                @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                                @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control", required = "required", id = "categoryID" })
                             </div>
                         </div>
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.PublisherID, "PublisherID")</label>
                             <div>
-                                @Html.DropDownList("PublisherID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                                @Html.DropDownList("PublisherID", null, htmlAttributes: new { @class = "form-control", required = "required", id= "PublisherID" })
                                 @Html.ValidationMessageFor(model => model.PublisherID, "", new { @class = "text-danger" })
                             </div>
                         </div>
@@ -78,28 +78,28 @@
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.Overview)</label>
                             <div>
-                                @Html.EditorFor(model => model.Overview, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.EditorFor(model => model.Overview, new { htmlAttributes = new { @class = "form-control", required = "required", id= "Overview" } })
                                 @Html.ValidationMessageFor(model => model.Overview, "", new { @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.Details)</label>
                             <div>
-                                @Html.EditorFor(model => model.Details, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.EditorFor(model => model.Details, new { htmlAttributes = new { @class = "form-control", required = "required" , id= "Details" } })
                                 @Html.ValidationMessageFor(model => model.Details, "", new { @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.Price)</label>
                             <div>
-                                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", required = "required", id="Price" } })
                                 @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-group">
                             <label>@Html.LabelFor(model => model.TotalQuantity)</label>
                             <div>
-                                @Html.EditorFor(model => model.TotalQuantity, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.EditorFor(model => model.TotalQuantity, new { htmlAttributes = new { @class = "form-control", required = "required", id= "TotalQuantity" } })
                                 @Html.ValidationMessageFor(model => model.TotalQuantity, "", new { @class = "text-danger" })
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Create" class="btn btn-success" />
+                        <input type="submit" value="Create" class="btn btn-success" @*onclick="SubmitBook(); return false;"*@/>
                         <button class="btn btn-default">@Html.ActionLink("Back to List", "Index")</button>
                     </div>
                 </div>

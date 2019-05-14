@@ -73,11 +73,11 @@
                                             @*<a href="#" class="btn btn-danger">Delete</a>*@
 
                                             @Ajax.ActionLink("Delete", "Delete", new { @id = item.CategoryID }, new AjaxOptions
-                                       {
-                                           Confirm = "Bạn có muốn xóa bản ghi này?",
-                                           OnComplete = "$('#row_" + @item.CategoryID + "').remove()",
-                                           HttpMethod = "Delete"
-                                       }, new { @class = "btn btn-danger" })
+                                            {
+                                               Confirm = "Bạn có muốn xóa bản ghi này?",
+                                               OnComplete = "$('#row_" + @item.CategoryID + "').remove()",
+                                               HttpMethod = "Delete"
+                                            }, new { @class = "btn btn-danger" })
                                         </td>
 
                                     </tr>

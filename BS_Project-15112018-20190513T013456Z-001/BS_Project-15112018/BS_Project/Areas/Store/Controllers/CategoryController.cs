@@ -146,7 +146,7 @@ namespace BS_Project.Areas.Store.Controllers
             }
             else
             {
-                ModelState.AddModelError("", "Xoa không thành công");
+                ModelState.AddModelError("", "Xóa không thành công");
             }
             return View("Index");
         }

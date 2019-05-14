@@ -63,6 +63,12 @@ namespace BS_Project.DAO
             return db.Authors.Find(id);
         }
 
+        public Author ForAuthBook(int id)
+        {
+            db.Authors.Find(id);
+            Author author = db.Authors.Find(id);
+            return author;
+        }
         /// <summary>
         /// update thông tin của tác giả
         /// </summary>

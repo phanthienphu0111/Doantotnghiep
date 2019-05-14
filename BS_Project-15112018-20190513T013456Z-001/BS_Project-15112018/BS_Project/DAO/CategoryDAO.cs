@@ -64,6 +64,13 @@ namespace BS_Project.DAO
             return db.Categories.Find(cateID);
         }
 
+        public Category ForCateBook(int id)
+        {
+            db.Categories.Find(id);
+            Category categories = db.Categories.Find(id);
+            return categories;
+        }
+
         /// <summary>
         /// Thực hiên việc Update Category đã chỉnh sửa
         /// </summary>

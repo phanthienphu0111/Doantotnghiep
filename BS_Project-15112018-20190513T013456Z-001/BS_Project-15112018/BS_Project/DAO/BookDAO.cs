@@ -45,15 +45,24 @@ namespace BS_Project.DAO
         /// <param name="book"></param>
         /// <param name="imageURL"></param>
         /// <returns>trả về ID của cuốn sách được thêm</returns>
-        public int Insert(Book book, string imageURL)
+        public int Insert(Book book, string imageURL , string Authors, string Category)
         {
-            db.Books.Add(book);
+            //db.Books.Add(book);
             var imageBool = new ImageBool();
             var image = db.ImageBools.Add(imageBool);
+            //string qrInsertImage = "insert into Images values (" + image.ImageBoolID + ", N'" + imageURL + "')";
+            //db.Database.ExecuteSqlCommand(qrInsertImage);
+            string InsertBook = "insert into Books values (N'" + book.Name + "'," + book.PublisherID + ",N'" + book.PublicationDate + "',N'1',N'" + book.Overview + "',N'" + book.Details + "',N'" + book.Price + "',N'" + book.TotalQuantity + "',N'" + book.ViewCount + "',0)";
+            db.Database.ExecuteSqlCommand(InsertBook);
+            db.SaveChanges();
+            string qrAuthorBook = "insert into AuthorsBooks (AuthorID, BookID) values (" + Authors + ",  (SELECT IDENT_CURRENT('Books') as LastID))";
+            db.Database.ExecuteSqlCommand(qrAuthorBook);
+            string qrCategoryBook = "insert into CategoriesBooks (BookID, CategoryID) values ( (SELECT IDENT_CURRENT('Books') as LastID) , " + Category + ")";
+            db.Database.ExecuteSqlCommand(qrCategoryBook);
             db.SaveChanges();
 
             string qrInsertImage = "insert into Images values (" + image.ImageBoolID + ", N'" + imageURL + "');";
-            string updateBookImage = "update Books set ImageBoolID = " + image.ImageBoolID + " where BookID = " + book.BookID;
+            string updateBookImage = "update Books set ImageBoolID = " + image.ImageBoolID + " where BookID =  (SELECT IDENT_CURRENT('Books') as LastID)";
             db.Database.ExecuteSqlCommand(qrInsertImage);
             db.Database.ExecuteSqlCommand(updateBookImage);
 
@@ -76,6 +85,21 @@ namespace BS_Project.DAO
                 model = db.Books.Where(x => x.Name.Contains(searchString));
             }
             return model.OrderBy(x => x.BookID).ToPagedList(page, pageSize);
+        }
+        public bool Delete(int id)
+        {
+            try
+            {
+                var book = db.Books.Find(id);
+                db.Books.Remove(book);
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
         }
     }
 }

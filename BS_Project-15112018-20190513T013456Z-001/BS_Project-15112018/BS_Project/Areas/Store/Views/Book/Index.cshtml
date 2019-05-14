@@ -70,7 +70,7 @@
                     </tr>
                     @foreach (var item in Model)
                     {
-                        <tr>
+                        <tr id="row_@item.BookID">
                             <td>
                                 <div class="Container1">
                                     <div class="Content1">
@@ -106,6 +106,13 @@
                                     <input type="hidden" id="abcdfe" value="@item.PublicationDate.Value.ToShortDateString()" />
                                     <input type="hidden" id="abcdfef" value="@item.Categories.FirstOrDefault().Name" />
                                 </a>
+                                
+                                 @Ajax.ActionLink("Xóa", "Delete", new { @id = item.BookID }, new AjaxOptions
+                                       {
+                                           Confirm = "Bạn có muốn xóa bản ghi này?",
+                                           OnComplete = "$('#row_" + @item.BookID + "').remove()",
+                                           HttpMethod = "Delete"
+                                       }, new { @class = "btn btn-danger" })
                                 <div id="modal" class="modal">
                                     <div class="modal-dialog animated">
                                         <div class="modal-content">

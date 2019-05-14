@@ -8,6 +8,8 @@ using PagedList;
 using BS_Project.EF;
 using BS_Project.DAO;
 using System.Collections.Generic;
+using System;
+using BS_Project.Areas.Store.Models;
 
 namespace BS_Project.Areas.Store.Controllers
 {
@@ -153,13 +155,13 @@ namespace BS_Project.Areas.Store.Controllers
         /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(Book book, FormCollection formcollection, Author author, Category category)
+        public async Task<ActionResult> Create(Book book, FormCollection formcollection/*, Author author, Category category*/)
         {
             if (Session["UserName"] == null)
             {
                 return RedirectToAction("Login", "AccountAdmin");
             }
-            string imageURL = null;
+            string imageURL, a, c = null;
             try
             {
                 imageURL = formcollection["txtImageURL"].ToString();
@@ -168,17 +170,24 @@ namespace BS_Project.Areas.Store.Controllers
             {
                 imageURL = "/Content/images/Image.jpg";
             }
-
-            book.Authors = new List<Author>();
-            book.Authors.Add(author);
-            book.Categories = new List<Category>();
-            book.Categories.Add(category);
-
-
+            //a = Int32.Parse(formcollection["AuthorID"].ToString());
+            //c = Int32.Parse(formcollection["CategoryID"].ToString());
+            //var auth = new AuthorDAO();
+            //var cete = new CategoryDAO();
+            //book.Authors = new List<Author>();
+            //book.Authors.Add(auth.ForAuthBook(a));
+            //book.Categories = new List<Category>();
+            //book.Categories.Add(cete.ForCateBook(c));
+            //book.Authors = new List<Author>();
+            //book.Authors.Add(author);
+            //book.Categories = new List<Category>();
+            //book.Categories.Add(category);
+            a = formcollection["AuthorID"].ToString();
+            c = formcollection["CategoryID"].ToString();
             if (ModelState.IsValid)
             {
                 var dao = new BookDAO();
-                var rs = dao.Insert(book, imageURL);  // bay gio nếu insert book thì author đi cùng tự động insert luôn. Làm tương tự cho trường hợp thêm Author
+                var rs = dao.Insert(book, imageURL, a ,c);  // bay gio nếu insert book thì author đi cùng tự động insert luôn. Làm tương tự cho trường hợp thêm Author
                 await db.SaveChangesAsync();
                 SetAlert("Thêm Sách Thành Công", "success");
                 return RedirectToAction("Index");
@@ -188,6 +197,40 @@ namespace BS_Project.Areas.Store.Controllers
             ViewBag.CategoryID = new SelectList(db.Categories, "CategoryID", "Name");
             ViewBag.PublisherID = new SelectList(db.Publishers, "PublisherID", "Name", book.PublisherID);
             return View(book);
+        }
+        [HttpDelete]
+        public ActionResult Delete(int id)
+        {
+            var dao = new BookDAO();
+            var result = dao.Delete(id);
+            if (result)
+            {
+                return RedirectToAction("Index", "Book");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Xóa không thành công");
+            }
+            return View("Index");
+        }
+        public JsonResult DeleteByID(int id)
+        {
+            var result = new BookDAO().Delete(id);
+            if (result)
+            {
+                return Json(new
+                {
+                    status = true
+                });
+            }
+            else
+            {
+                return Json(new
+                {
+                    status = false
+                });
+            }
+
         }
     }
 }

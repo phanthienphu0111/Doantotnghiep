@@ -216,6 +216,8 @@
     <Compile Include="Areas\Store\Controllers\OrderController.cs" />
     <Compile Include="Areas\Store\Controllers\PublisherController.cs" />
     <Compile Include="Areas\Store\Controllers\StatisticalController.cs" />
+    <Compile Include="Areas\Store\Models\AuthorBook.cs" />
+    <Compile Include="Areas\Store\Models\CategoryBook.cs" />
     <Compile Include="Areas\Store\StoreAreaRegistration.cs" />
     <Compile Include="Controllers\AuthorController.cs" />
     <Compile Include="Controllers\BookController.cs" />
@@ -4285,7 +4287,6 @@
     <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
-    <Folder Include="Areas\Store\Models\" />
     <Folder Include="Areas\Store\Views\Base\" />
     <Folder Include="Content\images\publisher\" />
     <Folder Include="Content\Librarian\bower_components\bootstrap-colorpicker\dist\css\" />
