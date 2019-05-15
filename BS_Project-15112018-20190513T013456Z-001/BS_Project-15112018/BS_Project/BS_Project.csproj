@@ -213,11 +213,13 @@
     <Compile Include="Areas\Store\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Store\Controllers\CommentController.cs" />
     <Compile Include="Areas\Store\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Store\Controllers\InventoryController.cs" />
     <Compile Include="Areas\Store\Controllers\OrderController.cs" />
     <Compile Include="Areas\Store\Controllers\PublisherController.cs" />
     <Compile Include="Areas\Store\Controllers\StatisticalController.cs" />
     <Compile Include="Areas\Store\Models\AuthorBook.cs" />
     <Compile Include="Areas\Store\Models\CategoryBook.cs" />
+    <Compile Include="Areas\Store\Models\OrderDetailBook.cs" />
     <Compile Include="Areas\Store\StoreAreaRegistration.cs" />
     <Compile Include="Controllers\AuthorController.cs" />
     <Compile Include="Controllers\BookController.cs" />
@@ -4197,6 +4199,7 @@
     <Content Include="Areas\Store\Views\AccountAdmin\Edit.cshtml" />
     <Content Include="Areas\Store\Views\Comment\Index.cshtml" />
     <Content Include="Areas\Store\Views\template\newOrder.cshtml" />
+    <Content Include="Areas\Store\Views\Inventory\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\easy-responsive-tabs.js" />
     <Content Include="Content\imagecenter.css" />

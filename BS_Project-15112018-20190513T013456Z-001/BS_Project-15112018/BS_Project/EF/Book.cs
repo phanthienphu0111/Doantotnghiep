@@ -42,6 +42,8 @@ namespace BS_Project.EF
 
         public bool? isDeleted { get; set; }
 
+        public int? CurrentQuantity { get; set; }
+
         public virtual ImageBool ImageBool { get; set; }
 
         public virtual Publisher Publisher { get; set; }

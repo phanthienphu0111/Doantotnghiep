@@ -1,4 +1,5 @@
-﻿using BS_Project.DAO;
+﻿using BS_Project.Areas.Store.Models;
+using BS_Project.DAO;
 using BS_Project.EF;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,25 @@ namespace BS_Project.Areas.Store.Controllers
             int result = 1;
             try
             {
+                if (dao.Status == 4)
+                {
+                    var bookDetail = from table in db.OrdersDetails
+                               where table.OrderID == orderID
+                               select table;
+
+                    foreach (var bookD in bookDetail)
+                    {
+                        var bookS = from table in db.Books
+                                   where table.BookID == bookD.BookID
+                                    select table;
+                        foreach (var book in bookS)
+                        {
+                            var daoBook = new BookDAO();
+                            daoBook.UpdateCurrent(book.BookID, Int32.Parse(book.CurrentQuantity.ToString()), Int32.Parse(bookD.Quantity.ToString()));
+                        }
+                    }
+                    dao.Paid = true;
+                }
                 db.SaveChanges();
             }
             catch (Exception e)

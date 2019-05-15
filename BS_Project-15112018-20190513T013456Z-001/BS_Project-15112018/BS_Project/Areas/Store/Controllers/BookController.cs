@@ -85,7 +85,7 @@ namespace BS_Project.Areas.Store.Controllers
             {
                 return RedirectToAction("Login", "AccountAdmin");
             }
-            string imageURL = null;
+            string imageURL, totalQuantity = null;
             try
             {
                 imageURL = formcollection["txtImageURL"].ToString();
@@ -94,12 +94,11 @@ namespace BS_Project.Areas.Store.Controllers
             {
                 imageURL = "/Content/images/Image.jpg";
             }
+            totalQuantity = formcollection["CurrentQuantity"].ToString();
             if (ModelState.IsValid)
             {
                 var dao = new BookDAO();
-                var rs = dao.Update(book, imageURL);
-                db.Entry(book).State = EntityState.Modified;
-                db.SaveChanges();
+                var rs = dao.Update(book, imageURL, Int32.Parse(totalQuantity));
                 return RedirectToAction("Index");
             }
             ViewBag.ImageBoolID = new SelectList(db.ImageBools, "ImageBoolID", "ImageBoolID", book.ImageBoolID);

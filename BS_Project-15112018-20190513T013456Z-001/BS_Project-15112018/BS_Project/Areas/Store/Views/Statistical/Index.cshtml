@@ -20,7 +20,7 @@
     <script>
       var options = {
 	        title: {
-		        text: "THỐNG KÊ DOANH THU THEO THÁNG"
+		        text: "DOANH THU THEO THÁNG"
 	        },
 	        animationEnabled: true,
 	        exportEnabled: true,
@@ -91,7 +91,7 @@
                         @{ int i = 1; }
                         @foreach (var item in lst2) {
                         <tr>
-                            <td>@Html.DisplayFor(m=>item.Ngay)</td>
+                            <td>@Html.DisplayFor(m => item.Ngay)</td>
                             <td>@Html.DisplayFor(m => item.DoanhThu)</td>
                             <td class="text-center">
                                 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-XemChiTiet@(i)">Xem chi tiết</button>

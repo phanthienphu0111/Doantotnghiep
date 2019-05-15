@@ -22,13 +22,16 @@ namespace BS_Project.DAO
         /// <param name="book"></param>
         /// <param name="imageURL"></param>
         /// <returns></returns>
-        public bool Update(Book book, string imageURL)
+        public bool Update(Book book, string imageURL, int Quantity)
         {
             try
             {
                 var bookOld = db.Books.Find(book.BookID);
                 bookOld.ImageBool.Images.First().ImageURL = imageURL;
-
+                bookOld.TotalQuantity += Quantity;
+                bookOld.CurrentQuantity += Quantity;
+                //string updateBook = "update Books set CurrentQuantity = " + bookOld.CurrentQuantity + Quantity + ",TotalQuantity = " + bookOld.TotalQuantity + Quantity + " where BookID =  "+ book.BookID +")";
+                //db.Database.ExecuteSqlCommand(updateBook);
                 db.SaveChanges();
                 return true;
             }
@@ -52,7 +55,7 @@ namespace BS_Project.DAO
             var image = db.ImageBools.Add(imageBool);
             //string qrInsertImage = "insert into Images values (" + image.ImageBoolID + ", N'" + imageURL + "')";
             //db.Database.ExecuteSqlCommand(qrInsertImage);
-            string InsertBook = "insert into Books values (N'" + book.Name + "'," + book.PublisherID + ",N'" + book.PublicationDate + "',N'1',N'" + book.Overview + "',N'" + book.Details + "',N'" + book.Price + "',N'" + book.TotalQuantity + "',N'" + book.ViewCount + "',0)";
+            string InsertBook = "insert into Books values (N'" + book.Name + "'," + book.PublisherID + ",N'" + book.PublicationDate + "',N'1',N'" + book.Overview + "',N'" + book.Details + "',N'" + book.Price + "',N'" + book.TotalQuantity + "',N'" + book.ViewCount + "',0,N'" + book.TotalQuantity + "')";
             db.Database.ExecuteSqlCommand(InsertBook);
             db.SaveChanges();
             string qrAuthorBook = "insert into AuthorsBooks (AuthorID, BookID) values (" + Authors + ",  (SELECT IDENT_CURRENT('Books') as LastID))";
@@ -101,5 +104,29 @@ namespace BS_Project.DAO
                 return false;
             }
         }
+
+        // <summary>
+        /// Thêm 1 cuốn sách
+        /// </summary>
+        /// <param name="book"></param>
+        /// <param name="imageURL"></param>
+        /// <returns>trả về ID của cuốn sách được thêm</returns>
+        public bool UpdateCurrent(int bookID ,int quality, int current)
+        {
+            try
+            {
+                var bookOld = db.Books.Find(bookID);
+                bookOld.CurrentQuantity = quality - current;
+
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+        }
+
     }
 }

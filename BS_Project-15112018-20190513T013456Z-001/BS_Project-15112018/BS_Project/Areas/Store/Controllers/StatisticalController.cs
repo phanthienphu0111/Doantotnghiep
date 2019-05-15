@@ -24,7 +24,9 @@ namespace BS_Project.Areas.Store.Controllers
                 lst.Add(new ThongKeDoanhThuTheoThang() { Thang = i, DoanhThu = (int)db.OrdersBooks.Where(m => m.FoundedDate.HasValue && m.FoundedDate.Value.Year == DateTime.Today.Year && m.FoundedDate.Value.Month == i).Sum(m=>m.OrdersDetails.Sum(tt=>tt.Quantity * (tt.Book.Price ?? 0))).GetValueOrDefault(0)  });
             }
             if(from == null && to == null) {
-                ViewBag.lst2 = db.OrdersDetails.Where(o=>o.OrdersBook.Paid == true).GroupBy(m => m.CreatedDate).Select(o => new ThongKeDoanhThuTheoNgay() { Ngay = o.Key, DanhSachDonHang = o.Select(m=>m.OrdersBook).ToList().Distinct().ToList(), DoanhThu = o.Sum(tt => tt.Quantity * tt.Book.Price) }).ToList();
+                ViewBag.lst2 = db.OrdersDetails.Where(o=>o.OrdersBook.Paid == true).GroupBy(m => m.CreatedDate).Select(o => 
+                new ThongKeDoanhThuTheoNgay() { Ngay = o.Key, DanhSachDonHang = o.Select(m=>m.OrdersBook).ToList().Distinct().ToList(),
+                    DoanhThu = o.Sum(tt => tt.Quantity * tt.Book.Price) }).ToList();
             }
             else {
                 ViewBag.lst2 = db.OrdersDetails.Where(o => o.OrdersBook.Paid == true && o.CreatedDate >= from && o.CreatedDate <= to ).GroupBy(m => m.CreatedDate).Select(o => new ThongKeDoanhThuTheoNgay() { Ngay = o.Key, DanhSachDonHang = o.Select(m => m.OrdersBook).ToList().Distinct().ToList(), DoanhThu = o.Sum(tt => tt.Quantity * tt.Book.Price) }).ToList();

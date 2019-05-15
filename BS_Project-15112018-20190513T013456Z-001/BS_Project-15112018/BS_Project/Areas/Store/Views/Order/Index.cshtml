@@ -73,7 +73,7 @@
                                     {
                                         if (ordersDetailItem.Book != null)
                                         {
-                                            <tr>
+                                            <tr id="row_@ordersDetailItem.Book.BookID">
                                                 <td>@Html.DisplayFor(m => ordersDetailItem.Book.Name)</td>
                                                 <td>@Html.DisplayFor(m => ordersDetailItem.Book.Price)</td>
                                                 <td>@Html.DisplayFor(m => ordersDetailItem.Quantity)</td>
@@ -155,12 +155,15 @@
     </div>
 </section>
 <script>
-    function TransferStatus(orderID) {
+    function TransferStatus(orderID, BookID) {
         $.ajax({
             url: "/Order/TransferStatus",
             type: "POST",
             dataType: "json",
-            data: { orderID: orderID },
+            data: {
+                orderID: orderID,
+                BookID: BookID
+            },
             success: function (data) {
                 if (data != -1) {
                     alert("Chuyển Trạng thái Đơn hàng thành công.")
