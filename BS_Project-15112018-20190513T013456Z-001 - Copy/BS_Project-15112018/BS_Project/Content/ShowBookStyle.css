@@ -1,0 +1,19 @@
+﻿.filter-section-item {
+    margin-left: 5px;
+    width: auto;
+    height: auto;
+}
+
+#filter_1{
+    float: right;
+    margin-right: 5px;
+    background-color: #1446e9;
+    color: white;
+}
+
+#filter_2 {
+    float: right;
+    margin-right: 5px;
+    background-color: #1446e9;
+    color: white;
+}

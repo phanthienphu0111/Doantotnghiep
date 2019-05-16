@@ -1,0 +1,225 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.User>
+@using BS_Project.DAO;
+@using PagedList.Mvc
+@using BS_Project.EF
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<section class="content-header">
+    <h1>
+        Trang chủ
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang Chủ</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                @*<div class="box-tools" style="float:right; margin: 10px 10px 10px 10px">
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+                    {
+
+                        <div class="input-group input-group-sm" style="width: 250px;">
+                            <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    }
+                </div>*@
+                <div class="box-header">
+                    @*@Html.Action("returnRequestList", "Home")*@
+                </div>
+                @*<div class="row">
+                        <div class="col-sm-7">
+                            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+                        </div>
+                    </div>*@
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" style="font-size: 40px;">
+                                        @{
+                                            int countComment = 0;
+                                            countComment = UserDAO.CountComment();
+                                            <label>@countComment</label>
+                                        }
+                                    </div>
+                                    <div>Bình Luận</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/Comment/Index">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary" style="border-color: #5cb85c;">
+                        <div class="panel-heading" style="border-color: #5cb85c; background-color: #5cb85c; color: #fff;">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" style="font-size: 40px;">
+                                        @{
+                                            int countUser = 0;
+                                            countUser = UserDAO.CountUser();
+                                            <label>@countUser</label>
+                                        }
+                                    </div>
+                                    <div>Tài Khoản</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/AccountAdmin/Profile">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary" style="border-color: #f0ad4e;">
+                        <div class="panel-heading" style="border-color: #f0ad4e; color: #fff; background-color: #f0ad4e;">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-shopping-cart fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    @*@{
+                                            int count = 0;
+                                            count = CommentsDAO.CountTotal();
+                                            <div class="huge" style="font-size: 40px;">@count</div>
+                                        }*@
+                                    <div class="huge" style="font-size: 40px;">
+                                        @{
+                                            int countOrder = 0;
+                                            countOrder = UserDAO.CountOrder();
+                                            <label>@countOrder</label>
+                                        }
+                                    </div>
+                                    <div>Đơn Hàng</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/Order/Index">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary" style="border-color: #d95348;">
+                        <div class="panel-heading" style="border-color: #d95348; color: #fff; background-color: #d95348;">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-support fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" style="font-size: 40px;">
+                                        @{
+                                            int countVer = 0;
+                                            countVer = UserDAO.CountVer();
+                                            <label>@countVer</label>
+                                        }
+                                    </div>
+                                    <div>Thống Kê</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/Statistical/Index">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            @*<div class="row">
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-aqua">
+                            <div class="inner">
+                                <h3>150</h3>
+
+                                <p>Đơn hàng mới</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-bag"></i>
+                            </div>
+                            <a href="/Store/Order/Index" class="small-box-footer">Xem chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                                <p>Thống kê doanh thu</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="/Store/Statistical/Index" class="small-box-footer">Xem chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-yellow">
+                            <div class="inner">
+                                <h3>44</h3>
+
+                                <p>Số lượng người dùng</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-person-add"></i>
+                            </div>
+                            <a href="/Store/AccountAdmin/Profile" class="small-box-footer">Xem chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-red">
+                            <div class="inner">
+                                <h3>65</h3>
+
+                                <p>Thống kê Sách tồn</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="/Store/Inventory/Index" class="small-box-footer">Xem chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                </div>*@
+        </div>
+    </div>
+</section>

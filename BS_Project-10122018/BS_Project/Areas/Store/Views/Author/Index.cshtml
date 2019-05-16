@@ -1,0 +1,47 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.Author>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1>
+        Quản Lý Tác Giả
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i>Trang Chủ</a></li>
+        <li><a href="/Store/Author/Index">Tác Giả</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header" style="min-height:580px">
+
+                    <div class="input-group-btn">
+                        <a class="btn btn-primary" href="/Store/Author/Create">Thêm Tác Giả</a>
+                    </div>
+
+                    <div class="box-tools" style="float:right; margin: 10px 10px 10px 10px">
+                        @*@using (Html.BeginForm("Index", "Author", FormMethod.Get))
+                            {
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Search">
+                                    <div class="input-group-btn">
+                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                            }*@
+                        @Html.Action("completeNameAuthor", "Author")
+                    </div>
+                    <div class="box-body">
+                        @Html.Action("returnTableAuthor", "Author")
+                    </div>
+                    <!-- /.box-header -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

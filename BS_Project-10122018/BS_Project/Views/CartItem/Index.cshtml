@@ -1,0 +1,70 @@
+﻿@model List<BS_Project.Models.CartItem>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section jsFooter{
+
+    <script src="/Scripts/controller/cartController.js"></script>
+}
+<div class="new_arrivals_agile_w3ls_info">
+    <div class="container">
+        <h3 class="wthree_text_info">
+            <span>GIỎ HÀNG</span>
+        </h3>
+        <div class="resp-tabs-container">
+            @if (Model != null && Model.Count > 0)
+            {
+                <div class="col-xs-9 cart-col-1">
+                    <table class="table">
+                        <thead>
+                            <tr style="background-color:#808080">
+                                <td>Hình ảnh</td>
+                                <td>Tên</td>
+                                <td>Giá</td>
+                                <td>Số lượng</td>
+                                <td>Thành tiền</td>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr style="background-color:#e6d4d4">
+                                   @* <td><img src="@item.Books.Image.ImageURL" style="height:100px; width:70px"></td>*@
+                                    <td>@item.Books.Name</td>
+                                    <td>@item.Books.Price.GetValueOrDefault(0).ToString("N0")</td>
+                                    <td>
+                                        <input min="1" max="@item.Books.TotalQuantity" type="number" value="@item.Quantity" class="txtQuantity" data-id="@item.Books.BookID" onkeydown="return false;"/>
+                                    </td>
+                                    <td>@((item.Books.Price.GetValueOrDefault(0) * item.Quantity).ToString("N0"))</td>
+                                    <td><a href="#" data-id="@item.Books.BookID" class="btn-delete"><span class="glyphicon glyphicon-remove"></span></a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <button class="btn btn-success" id="btnContinue">Tiếp tục mua sách</button>
+                    <button class="btn btn-success" id="btnUpdate">Cập nhật giỏ hàng</button>
+                    <button class="btn btn-success" id="btnSubmit" style="pointer-events: all;">Thanh toán</button>
+                    <button class="btn btn-success" id="btnDeleteAll">Xóa toàn bộ giỏ hàng</button>
+                </div>
+                <div class="col-xs-3 cart-col-5" style="border: 1px black dotted; border-radius: 0px;">
+                    <div class="box-style fee" style="vertical-align: middle;">
+                        <span>Tổng Tiền:</span>
+
+                        <span class="text-right" style="color: #fe3834; font-size: 22px; font-weight:400;"><strong>@Model.Sum(s=>s.Quantity * s.Books.Price) &nbsp;đ</strong></span>
+
+
+                    </div>
+                </div>
+            }
+            else
+            {
+                <span class="alert alert-danger">Không có sách nào trong giỏ hàng</span>
+                <br /><br />
+                <a href="/" title="">Tiếp tục mua sách</a>
+            }
+        </div>
+    </div>
+

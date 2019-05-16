@@ -1,0 +1,101 @@
+﻿@model BS_Project.EF.Comment
+@{
+    ViewBag.Title = "Reply";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+
+@section jsFooter{
+    <script>
+        var editor = CKEDITOR.replace('txtcontent', {
+            customConfig: '/Scripts/ckeditor/config.js'
+        })
+    </script>
+}
+
+<section class="content-header">
+    <h1>
+        Phản Hồi Bình Luận
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Comment/Index"><i class="fa fa-dashboard"></i>Trang Chủ</a></li>
+        <li><a href="/Store/Comment">Quản lý Bình luận</a></li>
+    </ol>
+</section>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-body">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Số Bình luận</label>
+                            @Html.EditorFor(model => model.CommentID, new { htmlAttributes = new { id = "commentID", @readonly = "readonly", @class = "form-control" } })
+                        </div>
+                        <div class="form-group">
+                            <label>Tên Sách</label>
+                            @Html.EditorFor(model => model.Book.Name, new { htmlAttributes = new { id = "bookname", @readonly = "readonly", @class = "form-control" } })
+                        </div>
+                        <div class="form-group">
+                            <label>Họ Tên Khách Hàng</label>
+                            @Html.EditorFor(model => model.User.FullName, new { htmlAttributes = new { id = "fullname", @readonly = "readonly", @class = "form-control" } })
+                        </div>
+                        <div class="form-group">
+                            <label>Nội Dung Bình Luận</label>
+                            @Html.EditorFor(model => model.Content, new { htmlAttributes = new { id = "content", @readonly = "readonly", @class = "form-control", @reqiured = "reqiured"} })
+                        </div>
+                        <div class="form-group">
+                            <label>Nội Dung Phản Hồi Khách Hàng</label>
+                            <textarea id="txtcontent" style="width: 100%" name="txtcontent"></textarea>
+                        </div>
+                        @Html.HiddenFor(x => x.User.Email, new { id = "email"})
+                        <div style="margin-left: 10px; text-align: center">
+                            <input class="btn btn-success" onclick="SendEmailFeedBack();" value="Lưu" style="width:90px" />
+                            <button class="btn btn-default">@Html.ActionLink("Trở về Trang danh sách", "Index")</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    function SendEmailFeedBack() {
+        var desc = CKEDITOR.instances['txtcontent'].getData();
+        if (CheckInput(desc)) {
+            var cmtID = $('#commentID').val();
+            var bookname = $('#bookname').val();
+            var fullname = $('#fullname').val();
+            var content = $('#content').val();
+            var email = $('#email').val();
+            var replycontent = desc;
+            $.ajax({
+                url: "/Comment/SendEmailFeedBack",
+                type: "post",
+                dataType: "json",
+                data: { bookname: bookname, fullname: fullname, replycontent: replycontent, email: email},
+                success: function (data) {
+                    if (data != -1) {
+                        alert("Gửi phản hồi thành công, vui lòng Check hộp thư Email.");
+                        window.location = "/Store/Comment/Index";
+                    }
+                    else {
+                        alert("Gửi phản hồi thất bại.");
+                        location.reload();
+                    }
+                }
+            });
+        }
+    }
+
+    function CheckInput(desc) {
+        if (desc == "") {
+            alert("Bạn chưa nhập nội dung phản hồi. Vui lòng xem lại.");
+            $('#txtcontent').focus();
+            return false;
+        }
+        return true;
+    }
+</script>

@@ -1,0 +1,147 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using BS_Project.EF;
+@model IEnumerable<Book>
+<style>
+
+    .img-responsive {
+        height: 255px;
+        width: 249px;
+    }
+
+    .pro-image-back {
+        height: 255px;
+        width: 249px;
+    }
+    /*div.col-md-3.product-men{
+        height:450px;
+    }*/
+    .book-name {
+        height: 30px;
+    }
+</style>
+<!-- /new_arrivals -->
+<div class="container">
+    <h3 class="wthree_text_info">DANH SÁCH <span>SẢN PHẨM</span></h3>
+    <div id="horizontalTab">
+        <ul class="resp-tabs-list">
+            <li> BÁN CHẠY</li>
+            <li> MỚI</li>
+            <li><a style="color:#000000" href="@Url.Action("showBook","Book", new { condition = 3 })"> Tất cả </a></li>
+        </ul>
+        <div class="resp-tabs-container">
+            <!--/tab_one-->
+            <div class="tab1">
+                @if ((List<Book>)ViewData["listHot"] == null)
+                {
+                    <div style="text-align: center;">
+                        DỮ LIỆU TRỐNG
+                    </div>
+                }
+                else
+                {
+                    foreach (var item in (List<Book>)ViewData["listHot"])
+                    {
+                        <div class="col-md-3 product-men">
+                            <div class="men-pro-item simpleCart_shelfItem">
+                                <div class="men-thumb-item">
+                                    @*<img class="img-responsive" src="@item.Image.ImageURL" />
+                                    <img src="@item.Image.ImageURL" alt="" class="pro-image-back">*@
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <div style="background-color:#2fdab8;color:white;z-index:5">
+                                                <a href="@Url.Action("BookDetail", "Home", new { id = item.BookID })">
+                                                    @item.Overview
+                                                </a>
+                                            </div>
+                                            <a href="@Url.Action("BookDetail", "Home", new { id = item.BookID })" class="link-product-add-cart">CHI TIẾT</a>
+                                        </div>
+                                    </div>
+                                    <span class="product-new-top">Hot</span>
+                                </div>
+                                <div class="item-info-product ">
+                                    <h4 class="book-name"><a href="@Url.Action("BookDetail", "Home", new { id = item.BookID })" title="@item.Name">@item.Name</a></h4>
+                                    <div class="info-product-price">
+                                        <span class="item_price"><span class="">@Html.Action("FormatMoney", new { money = @item.Price })  Đ</span></span>
+                                    </div>
+                                    @if (item.isDeleted == true)
+                                    {
+                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" style="height: 37px; line-height: 37px;background-color: darkgray;">
+                                            Ngưng bán
+                                        </div>
+                                    }
+                                    else if (item.TotalQuantity > 0)
+                                    {
+                                        @*<div id="@item.BookID" class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" name="addToCart" style="cursor:pointer; height: 37px; line-height: 37px;">
+                                                Thêm vào giỏ hàng
+                                            </div>*@
+                                        <div id="@item.BookID" class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out" name="quoctrung" style="height: 37px; line-height: 37px;">
+                                            Còn hàng
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" style="height: 37px; line-height: 37px;background-color: red;">
+                                            Đã hết hàng
+                                        </div>
+                                    }
+                                </div>
+                                @*<span class="product-new-top">View: @item.ViewCount</span>*@
+                            </div>
+                        </div>
+                    }
+                    <div class="clearfix"></div>
+                }
+            </div>
+            <!--/tab_two-->
+            <div class="tab2">
+                @if ((List<Book>)ViewData["listNew"] == null)
+                {
+                    <div style="text-align: center">
+                        DỮ LIỆU TRỐNG
+                    </div>
+                }
+                else
+                {
+                    foreach (var item in (List<Book>)ViewData["listNew"])
+                    {
+                        <div class="col-md-3 product-men">
+                            <div class="men-pro-item simpleCart_shelfItem">
+                                <div class="men-thumb-item">
+                                    @*<img class="img-responsive" src="@item.Image.ImageURL" />
+                                    <img src="@item.Image.ImageURL" alt="" class="pro-image-back">*@
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <div style="background-color:#2fdab8;color:white;z-index:5">
+                                                <a href="@Url.Action("BookDetail", "Home", new { id = item.BookID })">
+                                                    @item.Overview
+                                                </a>
+                                            </div>
+                                            <a href="@Url.Action("BookDetail", "Home", new { id = item.BookID })" class="link-product-add-cart">CHI TIẾT</a>
+                                        </div>
+                                    </div>
+                                    <span class="product-new-top">Mới</span>
+                                </div>
+                                <div class="item-info-product ">
+                                    <h4 class="book-name"><a href="@Url.Action("BookDetail", "Home", new { id = item.BookID })" title="@item.Name">@item.Name</a></h4>
+                                    <div class="info-product-price">
+                                        <span class="item_price"><span class="">@Html.Action("FormatMoney", new { money = @item.Price })  Đ</span></span>
+                                    </div>
+                                    @*<div id="@item.BookID" class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" name="addToCart" style="cursor:pointer">
+                                            Thêm vào giỏ hàng
+                                        </div>*@
+                                    <div id="@item.BookID" class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out" name="quoctrung" style="height: 37px; line-height: 37px;">
+                                        Còn hàng
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,128 @@
+﻿@model BS_Project.EF.Book
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/ProfileCss/chosen.css" rel="stylesheet" />
+<script src="~/Scripts/controller/chosen.jquery.js"></script>
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', function (e) {
+            e.preventDefault();
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+            };
+            finder.popup();
+        })
+        var editor = CKEDITOR.replace('txtDetail', { htmlEncodeOutput: true, customConfig: '/Scripts/ckeditor/config.js'})
+    </script>
+}
+<section class="content-header">
+    <h1>
+        Tạo Sách Mới
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang Chủ</a></li>
+        <li><a href="/Store/Book/Index">Quản Lý Sách</a></li>
+        <li class="active">Tạo Mới</li>
+    </ol>
+</section>
+@using (Html.BeginForm("Create", "Book", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-body">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Tên Sách</label>
+                            <div>
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Tác Giả</label>
+                            <div>
+                                @Html.DropDownList("AuthorID", null, htmlAttributes: new { @class = "form-control", required = "required", id = "multidropdownAuthor" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Thể Loại</label>
+                            <div>
+                                @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control", required = "required", id = "multidropdownCategory" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Nhà Xuất Bản</label>
+                            <div>
+                                @Html.DropDownList("PublisherID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                                @Html.ValidationMessageFor(model => model.PublisherID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Ngày Xuất Bản</label>
+                            <div>
+                                @Html.EditorFor(model => model.PublicationDate, new { htmlAttributes = new { @class = "form-control", @type = "date", id = "PublicationDate", required = "required", max = @DateTime.Now.ToString("dd/MM/yyyy") } })
+                                @Html.ValidationMessageFor(model => model.PublicationDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Tổng Quan</label>
+                            <div>
+                                @Html.EditorFor(model => model.Overview, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Overview, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            Chi Tiết
+                            @Html.Raw(HttpUtility.HtmlEncode(Html.TextAreaFor(model => model.Details, new { htmlAttributes = new { @class = "form-control select2", @style = "width: 100%;" }, id = "txtDetail" })))
+                            @Html.ValidationMessageFor(model => model.Details, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            <label>Đơn Giá</label>
+                            <div>
+                                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Số Lượng Nhập</label>
+                            <div>
+                                @Html.EditorFor(model => model.TotalQuantity, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.TotalQuantity, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            Hình ảnh
+                            <input class="form-control select2" name="txtImageURL" id="txtImage" value="@Html.DisplayFor(model => model.Image.ImageURL)" required="required" />
+                            <a id="btnSelectImage" href="#">Chọn hình ảnh</a>
+                            @Html.ValidationMessageFor(model => model.Image.ImageURL, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Tạo" class="btn btn-success" />
+                        <button class="btn btn-default">@Html.ActionLink("Trở Về", "Index")</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    $(function () {
+        $('#multidropdownAuthor').chosen({
+            disable_search_threshold: true
+        });
+        $('#multidropdownCategory').chosen({
+            disable_search_threshold: true
+        });
+    });
+</script>

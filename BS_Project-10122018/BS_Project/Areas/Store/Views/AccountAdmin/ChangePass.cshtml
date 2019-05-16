@@ -1,0 +1,124 @@
+﻿@model BS_Project.EF.User
+@{
+    ViewBag.Title = "ChangePass";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1>
+        Đổi Mật Khẩu
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang Chủ</a></li>
+        <li><a href="/Store/Book/Index">Quản Lý Tài Khoản</a></li>
+        <li class="active">Đổi Mật Khẩu</li>
+    </ol>
+</section>
+
+<form id="ChangePass">
+    <div class="form-horizontal">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-body">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Tên Đăng Nhập</label>
+                            @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control", required = "required" } })
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập mật khẩu mới</label>
+                            <input id="newpass" style="width: 100%" type="password" />
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập lại Mật khẩu mới</label>
+                            <input id="renewpass" style="width: 100%" type="password" />
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                @{ 
+                                    int userID = Convert.ToInt16(Session["UserID"]);
+                                }
+                                <button class="btn btn-success" onclick="ChangePass(@userID);">Lưu Mật Khẩu</button>
+                                <button class="btn btn-default">@Html.ActionLink("Trở về Trang Danh sách", "/Store/Home/index")</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    function ChangePass(userID) {
+        if (CheckInput()) {
+            var newPass = $('#newpass').val();
+            var reNewPass = $('#renewpass').val();
+            $.ajax({
+                url: "/AccountAdmin/ChangePassword",
+                type: "POST",
+                dataType: "json",
+                data: { newPass: newPass },
+                success: function (data) {
+                    if (data != -1) {
+                        alert("Chuyển mật khẩu thành công.")
+                        window.location = "/Store/AccountAdmin/Login";
+                    }
+                    else {
+                        alert("Chuyển đổi mật khẩu thất bại.");
+                        window.location = "/Account";
+                    }
+                }
+            });
+        }
+    }
+
+    function CheckInput() {
+        var newPass = $('#newpass').val();
+        var reNewPass = $('#renewpass').val();
+        var check = null;
+        if (newPass == "") {
+            alert("Bạn chưa nhập Mật khẩu mới.");
+            $('#newpass').focus();
+            return false;
+        }
+        if (reNewPass == "") {
+            alert("Bạn chưa Xác nhận Mật khẩu mới.");
+            $('#renewpass').focus();
+            return false;
+        }
+        if (newPass.length < 6 || newPass.length > 20) {
+            alert("Mật khẩu tổi thiểu 6 ký tự & tối đa 20 ký tự");
+            $('#newpass').focus();
+            return false;
+        }
+
+        if (reNewPass != newPass) {
+            alert("Xác nhận Mật khẩu chưa chính xác. Vui lòng nhập lại.");
+            $('#renewpass').focus();
+            return false;
+        }
+
+        var check = null;
+        $.ajax({
+            url: "/Store/AccountAdmin/GetPassOld",
+            type: "post",
+            async: false,
+            dataType: "json",
+            success: function (data) {
+                if (data != null) {
+                    check = data;
+                } else {
+                    check = null;
+                }
+            }
+        })
+
+        if (check != null && check == newPass) {
+            alert("Mật khẩu bị trùng với mật khẩu cũ. Vui lòng thay đổi.");
+            $('#newpass').focus();
+            return false;
+        }
+        return true;
+    }
+
+</script>

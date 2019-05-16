@@ -1,0 +1,99 @@
+﻿@using BS_Project.EF;
+@model BS_Project.Models.PaggingModel
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".sorting").hide();
+        $(".sort-grid").hide();
+        var page = getUrlVars()["page"];
+        //đổi màu phân trang
+        if (page == null) {
+            $('#' + 0 + 'pagesearch').css("background-color", "red");
+        } else {
+            $('#' + page + 'pagesearch').css("background-color", "red");
+        }
+    })
+</script>
+@{
+    if (Model.Books.Count == 0)
+    {
+        <script>
+            $('#modalBookNotFound').modal('toggle');
+        </script>
+        <div style="text-align: center">
+            KHÔNG TÌM THẤY KẾT QUẢ.
+        </div>
+    }
+}
+@foreach (var book in Model.Books)
+{
+    <div class="col-md-4 product-men">
+        <div class="men-pro-item simpleCart_shelfItem">
+            <div class="men-thumb-item">
+                @*html.action gọi method từ controller*@
+                <img style="height:200px" src="@Html.Action("GetFirstImage", new { idImage = book.ImageBoolID })" alt="" class="pro-image-front">
+                <img style="height:200px" src="@Html.Action("GetFirstImage", new { idImage = book.ImageBoolID })" alt="" class="pro-image-back">
+                <div class="men-cart-pro">
+                    <div class="inner-men-cart-pro" style="background-color:#2fdab8;color:#fff;z-index:20000000000">
+                        <p>@book.Overview</p>
+                        <a href="@Url.Action("BookDetail", "Home", new { id = @book.BookID})" class="link-product-add-cart">CHI TIẾT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-info-product ">
+                <h4 style="height:30px;width: 90%;margin:auto"><a href="@Url.Action("BookDetail", "Home", new { id = @book.BookID})">@book.Name</a></h4>
+                <div class="info-product-price">
+                    <span class="item_price">@Html.Action("FormatMoney", new { money = @book.Price }) Đ</span>
+                </div>
+                @if (book.isDeleted == true)
+                {
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" style="height: 37px; line-height: 37px;background-color: darkgray;">
+                        Ngưng bán
+                    </div>
+                }
+                else if (book.TotalQuantity > 0)
+                {
+                    <div id="@book.BookID" class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out" name="quoctrung" style="height: 37px; line-height: 37px;">
+                        Còn hàng
+                    </div>
+                }
+                else
+                {
+                    <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out button2" style="height: 37px; line-height: 37px;background-color: red;">
+                        Đã hết hàng
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+@if (Model.TotalPage > 1)
+{
+    <div class="paging">
+        <ul class="pagination" style="float:right;">
+            @{
+                int condition = 0;
+                //truyền condition để biết sách đang hiển thị theo kiểu nào
+                if (Request.Params["condition"] != null)
+                {
+                    condition = int.Parse(Request.QueryString["condition"].ToString());
+                }
+                string keysearch = "";
+                if (Request.QueryString["keysearch"] != null)
+                {
+                    keysearch = Request.QueryString["keysearch"].ToString();
+                }
+
+            }
+            <li class="page-item">
+                @Html.ActionLink("First Page", "ShowBook", "Book", new { page = 0, condition = condition, keysearch = keysearch }, new { @class = "page-link" })
+            </li>
+            @for (var i = 1; i <= Model.TotalPage; i++)
+            {
+                <li>@Html.ActionLink(i.ToString(), "ShowBook", "Book", new { page = i - 1, condition = condition, keysearch = keysearch }, new { @id = (@i - 1 + "pagesearch") })</li>
+            }
+            <li class="page-item">
+                @Html.ActionLink("Last Page", "ShowBook", "Book", new { page = Model.TotalPage - 1, condition = condition, keysearch = keysearch }, new { @class = "page-link" })
+            </li>
+        </ul>
+    </div>
+}

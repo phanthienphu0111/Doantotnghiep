@@ -1,0 +1,52 @@
+﻿@model BS_Project.EF.User
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Quản Lý - WEBSITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="~/Content/login.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/index.js"></script>
+
+</head>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="pen-title">
+        <h1>Trang Quản Lý</h1><span>Pen <i class='fa fa-paint-brush'></i> + <i class='fa fa-code'></i> by <a href='#'>Lê Quốc Trung</a></span>
+    </div>
+    <div class="module form-module">
+        <div class="toggle">
+            <i class="fa fa-times fa-pencil"></i>
+            <div class="tooltip">Click Me</div>
+        </div>
+        <div class="form">
+            <h2>Đăng nhập</h2>
+            <div id="errMsg">
+                <p id="errMessage"></p>
+            </div>
+            <form id="login">
+                @Html.TextBoxFor(model => model.Username, new { @type = "text", @id = "Username", @name = "Username", @placeholder = "Tên đăng nhập" })
+                @Html.TextBoxFor(model => model.Password, new { @type = "password", @id = "Password", @name = "Password", @placeholder = "Mật khẩu" })
+                <button type="submit" onclick="Login(); return false;" id="btnLogin" value="Login">Đăng nhập</button>
+            </form>
+        </div>
+        <div class="form">
+            <h2>Tạo tài khoản</h2>
+            <form id="register">
+                <a href="/Store/AccountAdmin/Register" id="btnRegister"> Đăng Ký</a>
+            </form>
+        </div>
+        <div class="cta"><a href="#">Quên tài khoản của bạn?</a></div>
+    </div>
+}
+
+
+
+

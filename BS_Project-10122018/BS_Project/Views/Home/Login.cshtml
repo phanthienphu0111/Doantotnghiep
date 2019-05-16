@@ -1,0 +1,39 @@
+﻿@if (Session["userName"] != null)
+{
+    if ((bool)Session["blockID"])
+    {
+        //2 là người mua sách, được quyền vào Trang Web
+        if ((int)Session["roleID"] == 2)
+        {
+            string originalString = Request.Url.OriginalString;
+            string requestRawurl = Request.RawUrl;
+            string requestUrl = Request.Url.ToString();
+            string requestUrlAbso = Request.Url.AbsoluteUri;
+            <meta http-equiv="refresh" content="1;https://localhost:44324/">
+        }
+        //1 là Admin - chạy thẳng vào trang Admin
+        if ((int)Session["roleID"] == 1)
+        {
+            <meta http-equiv="refresh" content="1;https://localhost:44324/trang-quan-tri">
+
+        }
+    }
+    else
+    {
+        <script>
+            alert("Tài khoản của bạn đã bị block! Vui lòng đăng nhập lại sau.");
+        </script>
+        Session["userName"] = null;
+        <meta http-equiv="refresh" content="1;Index">
+    }
+}
+else
+{
+    <script>
+
+        alert("Sai tên đăng nhập hoặc mật khẩu!!!");
+    </script>
+
+    Session["userName"] = null;
+    <meta http-equiv="refresh" content="1;Index">
+}

@@ -1,0 +1,188 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.User>
+@using BS_Project.DAO;
+@using PagedList.Mvc
+<link href="~/Content/imagecenter.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.js"></script>
+<link href="~/Content/animate.css" rel="stylesheet" />
+<link href="~/Content/rmodal.css" rel="stylesheet" />
+<link href="~/Content/pop.css" rel="stylesheet" />
+<script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<style type="text/css">
+
+    .modal .modal-dialog {
+        margin-top: 200px;
+        width: 60%;
+    }
+</style>
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1>
+        Thông tin Tài khoản
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang Chủ</a></li>
+        <li><a href="/Store/Book">Quản lý tài khoản Người dùng</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <div class="input-group-btn">
+                        <a style="visibility: hidden" class="btn btn-primary" href="/Store/Book/Create">Create new</a>
+                    </div>
+                    <div class="box-tools" style="float:right; margin: 10px 10px 10px 10px">
+                        @using (Html.BeginForm("Profile", "AccountAdmin"))
+                        {
+                            <div class="input-group input-group-sm" style="width: 250px;">
+                                <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Tìm kiếm" />
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <table class="table table-bordered table-hover" style="min-height:300px">
+                    <tr>
+                        <th style="width: 10%; text-align: center;">Mã Khách hàng</th>
+                        <th style="width: 10%; text-align: center;">Biệt danh</th>
+                        <th style="width: 10%; text-align: center;">Họ Tên</th>
+                        <th style="width: 10%; text-align: center;">Ngày Sinh</th>
+                        <th style="width: 10%; text-align: center;">Số điện thoại</th>
+                        <th style="width: 10%; text-align: center;">Email</th>
+                        <th style="width: 10%; text-align: center;">Ảnh đại diện</th>
+                        <th style="width: 10%; text-align: center;">Địa chỉ</th>
+                        <th style="width: 7%; text-align: center;">Số lần Hủy ĐH</th>
+                        <th style="width: 20%; text-align: center;">Chức năng</th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="text-align: center;" id="userID">@Html.DisplayFor(model => item.UserID)</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.Username)</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.FullName)</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.Birthday)</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.Phone)</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.Email)</td>
+                            <td class="Container1">
+                                <div class="Content1">
+                                    @if (item.ImageURL == null)
+                                    {
+                                        <img style="width:60px; height: 80px;" src="~/Content/images/image profile/lawyer-avatar-flat-icon-01-.jpg" />
+                                    }
+                                    else if (item.ImageURL != null)
+                                    {
+                                        <img style="width:60px; height: 80px;" src="@Html.DisplayFor(model => item.ImageURL)" />
+                                    }
+                                </div>
+                            </td>
+                            <td style="text-align: left;">@Html.DisplayFor(model => item.Address)</td>
+                            <td style="text-align: center;" id="DAO">
+                                @{
+                                    int countCanceled = 0;
+                                    countCanceled = OrderBookDAO.CanceledOrder(@item.UserID);
+                                    <label>@countCanceled</label>
+                                }
+                            </td>
+                            <td style="text-align: center">
+                                @if (item.isActivated == true)
+                                {
+                                <div class="btn-info">
+                                    <a style="color:snow;" href="/Store/AccountAdmin/Edit/@item.UserID">Chỉnh sửa thông tin</a>
+                                </div>
+                                    <button class="btn-danger" onclick="UnActived(@item.UserID);">Vô hiệu hóa</button>
+                                }
+                                else if (item.isActivated == false)
+                                {
+                                    @*<a class="btn-info" href="/Store/AccountAdmin/Edit/@item.UserID">Chỉnh sửa thông tin</a>*@
+                                    <div class="btn-info">
+                                        <a style="color:snow;" href="/Store/AccountAdmin/Edit/@item.UserID">Chỉnh sửa thông tin</a>
+                                    </div>
+                                    <button class="btn-success" onclick="Actived(@item.UserID);">Mở lại Tài Khoản</button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    @Html.PagedListPager(Model, page => Url.Action("Profile", new { page }))
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $(function () {
+        //debugger
+        //countCanceled($('#userID').val());
+    });
+    function UnActived(userID) {
+        $.ajax({
+            url: "/AccountAdmin/UnActived",
+            type: "POST",
+            dataType: "json",
+            data: { userID: userID },
+            success: function (data) {
+                if (data != -1) {
+                    alert("Vô hiệu hóa thành công")
+                    location.reload();
+                }
+                else {
+                    alert("Vô hiệu hóa thất bại.")
+                }
+            }
+        });
+    }
+
+    function Actived(userID) {
+        $.ajax({
+            url: "/AccountAdmin/Actived",
+            type: "POST",
+            dataType: "json",
+            data: { userID: userID },
+            success: function (data) {
+                if (data != -1) {
+                    alert("Có hiệu hóa thành công")
+                    location.reload();
+                }
+                else {
+                    alert("Có hiệu hóa thất bại.")
+                }
+            }
+        });
+    }
+
+    function countCanceled(userID) {
+        $.ajax({
+            url: "/Order/CountCanceled",
+            type: "POST",
+            dataType: "json",
+            data: { userID: userID },
+            success: function (data) {
+                if (data != null) {
+                    $('#Canceled').val(data);
+                }
+                else {
+                    $('#Canceled').val(0);
+                }
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        for (i = 0; i < $("td#DAO").length; i++) {
+            if ($("td#DAO")[i].innerText >= 5) {
+                var IDA = $("td#DAO")[i];
+                $(IDA).css('color', 'red');
+            }
+        }
+    });
+</script>

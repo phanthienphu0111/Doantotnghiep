@@ -1,0 +1,183 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.OrdersBook>
+@using PagedList.Mvc
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="box">
+            <div class="box-header">
+                <div class="sort_order" style="float: left;">
+                    <label>Lọc Theo Trạng Thái</label>
+                    <select id="order_id" class="frm-field required sect" style="margin-left: 5px;" onchange="Sort_Order();">
+                        <option value="0">Đặt Hàng Thành Công</option>
+                        <option value="1">Đã Tiếp Nhận Đơn Hàng</option>
+                        <option value="2">Đang Đóng Gói</option>
+                        <option value="2">Đang Vận Chuyển</option>
+                        <option value="2">Giao Hàng Thành Công</option>
+                    </select>
+                </div>
+                <div class="input-group-btn">
+                    <a style="visibility: hidden" class="btn btn-primary" href="/Store/Order/Create">Create New</a>
+                </div>
+                <div class="box-tools" style="float: right; margin: 10px 10px 10px 10px">
+
+                    @using (Html.BeginForm("Index", "Order", FormMethod.Get))
+                    {
+                        <div class="input-group input-group-sm" style="width: 250px;">
+                            <input type="text" value="@ViewBag.SearchString" id="searchString" name="searchString" class="form-control pull-right" placeholder="Tìm kiếm" />
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+            <table class="table table-bordered table-hover" style="min-height: 300px;">
+                <thead>
+                    <tr>
+                        <th>Mã Hóa đơn</th>
+                        <th>Họ tên Khách Hàng</th>
+                        <th>Ngày lập</th>
+                        <th>Sãn phẩm đã mua</th>
+                        <th>Tổng tiền</th>
+                        <th>Trạng thái</th>
+                        <th>Chuyển trạng thái đơn hàng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr style="@(item.Status == 4 ? "background: #dff0d8" : "")">
+                            <td>@Html.DisplayFor(x => item.OrderID)</td>
+                            <td>@Html.DisplayFor(x => item.FullName)</td>
+                            <td>@item.FoundedDate.Value.ToShortDateString()</td>
+                            <td>
+                                <table class="table table-bordered">
+                                    @foreach (var ordersDetailItem in item.OrdersDetails)
+                                    {
+                                        if (ordersDetailItem.Book != null)
+                                        {
+                                            <tr>
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Book.Name)</td>
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Book.Price)</td>
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Quantity)</td>
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Total)</td>
+                                            </tr>
+                                        }
+                                    }
+                                </table>
+                            </td>
+                            <td>@item.OrdersDetails.Sum(d => d.Total)</td>
+                            <td>
+                                @if (item.Status == 0)
+                                {
+                                    <span>Đặt Hàng Thành Công</span>
+                                }
+                                else if (item.Status == 1)
+                                {
+                                    <span>Đã tiếp nhận đơn hàng</span>
+                                }
+                                else if (item.Status == 2)
+                                {
+                                    <span>Đang đóng gói</span>
+                                }
+                                else if (item.Status == 3)
+                                {
+                                    <span>Đang vận chuyển</span>
+                                }
+                                else if (item.Status == 4)
+                                {
+                                    <span style="color: green">Giao hàng thành công</span>
+                                }
+                                else
+                                {
+                                    if (item.Canceled == true)
+                                    {
+                                        <span>Đã hủy đơn</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Đang giao</span>
+                                    }
+
+                                }
+                            </td>
+                            <td>
+                                @if (item.Status + 1 == 1)
+                                {
+                                    <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Tiếp nhận đơn hàng</button>
+                                }
+                                else if (item.Status + 1 == 2)
+                                {
+                                    <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Đang đóng gói</button>
+                                }
+                                else if (item.Status + 1 == 3)
+                                {
+                                    <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Đang vận chuyển</button>
+                                }
+                                else if (item.Status + 1 == 4)
+                                {
+                                    <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Giao hàng thành công</button>
+                                }
+                                else if (item.Status + 1 == 5)
+                                {
+                                    <span>
+                                        <label class="btn btn-success">Thanh toán thành công</label>
+                                    </span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function TransferStatus(orderID) {
+        $.ajax({
+            url: "/Order/TransferStatus",
+            type: "POST",
+            dataType: "json",
+            data: { orderID: orderID },
+            success: function (data) {
+                if (data != -1) {
+                    alert("Chuyển Trạng thái Đơn hàng thành công.")
+                    location.reload();
+                }
+                else {
+                    alert("Chuyển trạng thái chưa thành công.")
+                }
+            }
+        });
+    }
+
+    function Sort_Order() {
+        var sortID = $('#order_id option:selected').val();
+        var search_value = $('#searchString').val();
+        if (sortID == 0) {
+            debugger
+            //Sort theo status bằng Đặt hàng thành công
+            $.ajax({
+                url: "/Store/Order/ShowOrderByStatusOne",
+                type: "GET",
+                data: {
+                    sortID: sortID, search_value: search_value, page: 1, pageSize: 5
+                },
+                datatype: "html",
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                    $('#list_order').html(data);
+                },
+                error: function (data, errorThrown) {
+                    alert('request failed :' + errorThrown);
+                }
+            });
+        }
+    }
+</script>

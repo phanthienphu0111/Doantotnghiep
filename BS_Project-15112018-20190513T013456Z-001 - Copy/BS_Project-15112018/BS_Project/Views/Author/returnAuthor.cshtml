@@ -1,0 +1,25 @@
+﻿@using BS_Project.EF
+@model IEnumerable<BS_Project.EF.Author>
+@foreach (var item in Model)
+{
+    <div class="single_page_agile_its_w3ls">
+        <div class="bootstrap-tab-text-grids">
+            <div class="bootstrap-tab-text-grid">
+                <div class="bootstrap-tab-text-grid-left">
+                    <img src=@item.ImageBool.Images.FirstOrDefault().ImageURL data-imagezoom="true" class="img-responsive">
+                </div>
+                <div class="bootstrap-tab-text-grid-right">
+                    <ul>
+                        <li><a>Tác Giả</a></li>
+                    </ul>
+                    <p>
+                        @item.Overview
+                    </p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+
+        </div>
+
+    </div>
+}

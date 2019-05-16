@@ -1,0 +1,124 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.Publisher>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Store - Quản Lý Nhà Xuất Bản";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script>
+        $('#btnClose').click(function () {
+            $('#txtSearch').val("");
+            window.location.href = "/Librarian/Publisher";
+        });
+
+    </script>
+}
+
+<section class="content-header">
+    <h1>
+        Quản Lý Nhà Xuất Bản
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/Store/Publisher/Index">Quản Lý Nhà Xuất Bản</a></li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+
+                    <div class="input-group-btn">
+                        <a class="btn btn-primary" href="/Store/Publisher/Create">Create New</a>
+                    </div>
+
+                    <div class="box-tools">
+                        @using (Html.BeginForm("Index", "Publisher", FormMethod.Get))
+                        {
+                            <div class="input-group input-group-sm" style="width: 150px;">
+                                <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Search">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    @if (Model.Count > 0)
+                    {
+                        <table id="example2" class="table table-bordered table-hover" style="min-height:300px">
+                            <thead>
+                                <tr>
+                                    <th>@Html.DisplayNameFor(model => model.First().PublisherID)</th>
+                                    <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+                                    <th>@Html.DisplayNameFor(model => model.First().ImageURL)</th>
+                                    <th>#</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr id="row_@item.PublisherID">
+                                        <td>@item.PublisherID</td>
+                                        <td>
+                                            @item.Name
+                                        </td>
+                                        <td>
+                                            <img src="@item.ImageURL" style="height:100px; width:70px" />
+                                        </td>
+                                        <td>
+                                            <a href="/Store/Publisher/Edit/@item.PublisherID" class="btn btn-success">Edit</a>
+                                            @*<a href="#" class="btn btn-danger">Delete</a>*@
+
+                                            @Ajax.ActionLink("Delete", "Delete", new { @id = item.PublisherID }, new AjaxOptions
+                                       {
+                                           Confirm = "Bạn có muốn xóa bản ghi này?",
+                                           OnComplete = "$('#row_" + @item.PublisherID + "').remove()",
+                                           HttpMethod = "Delete"
+                                       }, new { @class = "btn btn-danger" })
+                                        </td>
+
+                                    </tr>
+                                }
+                            </tbody>
+
+                        </table>
+
+                    <!--Hien thi thong tin trang-->
+                        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @ViewBag.SearchString }))
+                    }
+                    else
+                    {
+                        <div class="box-body">
+                            <div class="alert alert-warning alert-dismissible">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true" id="btnClose">x</button>
+                                <h4>
+                                    <i class="icon fa fa-warning"></i>
+                                    Not found
+                                </h4>
+                                Từ khóa nhập vào không được tìm thấy!
+                            </div>
+                        </div>
+                    }
+
+                </div>
+                <!-- /.box-body -->
+
+                <div class="row">
+
+
+                </div>
+
+                <!--End page list-->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+</section>
+<!-- /.content -->

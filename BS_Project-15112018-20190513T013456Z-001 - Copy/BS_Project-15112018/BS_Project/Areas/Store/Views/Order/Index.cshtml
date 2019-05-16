@@ -1,0 +1,182 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.OrdersBook>
+@using PagedList.Mvc
+
+<link href="~/Content/imagecenter.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.js"></script>
+<link href="~/Content/animate.css" rel="stylesheet" />
+<link href="~/Content/rmodal.css" rel="stylesheet" />
+<script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<style type="text/css">
+    .modal .modal-dialog {
+        margin-top: 200px;
+        width: 60%;
+    }
+</style>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/pop.css" rel="stylesheet" />
+
+<section class="content-header">
+    <h1>
+        Thông Tin Đơn Hàng
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
+        <li><a href="/Store/Order">Thông tin đơn hàng</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <div class="input-group-btn">
+                        <a style="visibility: hidden" class="btn btn-primary" href="/Store/Order/Create">Create New</a>
+                    </div>
+                    <div class="box-tools" style="float: right; margin: 10px 10px 10px 10px">
+                        @using (Html.BeginForm("Index", "Order", FormMethod.Get))
+                        {
+                            <div class="input-group input-group-sm" style="width: 250px;">
+                                <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Search" />
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <table class="table table-bordered table-hover" style="min-height: 300px;">
+                    <thead>
+                        <tr>
+                            <th>Mã Hóa đơn</th>
+                            <th>Họ tên Khách Hàng</th>
+                            <th>Ngày lập</th>
+                            <th>Sãn phẩm đã mua</th>
+                            <th>Tổng tiền</th>
+                            <th>Trạng thái</th>
+                            <th>Chuyển trạng thái đơn hàng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                        <tr style="@(item.Status == 4 ? "background: #dff0d8" : "background:#FAAFBE	")">
+                            <td>@Html.DisplayFor(x => item.OrderID)</td>
+                            <td>@Html.DisplayFor(x => item.FullName)</td>
+                            <td>@Html.DisplayFor(x => item.FoundedDate)</td>
+                            <td>
+                                <table class="table table-bordered">
+                                    @foreach (var ordersDetailItem in item.OrdersDetails)
+                                    {
+                                        if (ordersDetailItem.Book != null)
+                                        {
+                                            <tr id="row_@ordersDetailItem.Book.BookID">
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Book.Name)</td>
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Book.Price)</td>
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Quantity)</td>
+                                                <td>@Html.DisplayFor(m => ordersDetailItem.Total)</td>
+                                            </tr>
+                                        }
+                                    }
+                                </table>
+                            </td>
+                            <td>@item.OrdersDetails.Sum(d => d.Total)</td>
+                            <td>
+                                @if (item.Canceled == true)
+                                {
+                                    <span style="color: red">Đã hủy đơn</span>
+                                }
+                                else
+                                {
+                                    @*<span>Đang giao</span>*@
+                                    if (item.Status == 0)
+                                    {
+                                        <span>Đặt Hàng Thành Công</span>
+                                    }
+                                    else if (item.Status == 1)
+                                    {
+                                        <span>Đã tiếp nhận đơn hàng</span>
+                                    }
+                                    else if (item.Status == 2)
+                                    {
+                                        <span>Đang đóng gói</span>
+                                    }
+                                    else if (item.Status == 3)
+                                    {
+                                        <span>Đang vận chuyển</span>
+                                    }
+                                    else if (item.Status == 4)
+                                    {
+                                        <span style="color: green">Giao hàng thành công</span>
+                                    }
+                                }
+                            </td>
+
+                            <td>
+                                @if (item.Canceled == true)
+                                {
+                                    <span style="color: red">Đơn hàng bị hủy</span>
+                                }
+                                else
+                                {
+                                    @*<span>Đang giao</span>*@
+                                    if (item.Status + 1 == 1)
+                                    {
+                                        <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Tiếp nhận đơn hàng</button>
+                                    }
+                                    else if (item.Status + 1 == 2)
+                                    {
+                                        <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Đang đóng gói</button>
+                                    }
+                                    else if (item.Status + 1 == 3)
+                                    {
+                                        <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Đang vận chuyển</button>
+                                    }
+                                    else if (item.Status + 1 == 4)
+                                    {
+                                        <button onclick="TransferStatus(@item.OrderID);">Chuyển sang TT: Giao hàng thành công</button>
+                                    }
+                                    else if (item.Status + 1 == 5)
+                                    {
+                                        <span></span>
+                                    }
+                                }
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    function TransferStatus(orderID, BookID) {
+        $.ajax({
+            url: "/Order/TransferStatus",
+            type: "POST",
+            dataType: "json",
+            data: {
+                orderID: orderID,
+                BookID: BookID
+            },
+            success: function (data) {
+                if (data != -1) {
+                    alert("Chuyển Trạng thái Đơn hàng thành công.")
+                    location.reload();
+                }
+                else {
+                    alert("Chuyển trạng thái chưa thành công.")
+                }
+            }
+        });
+    }
+</script>

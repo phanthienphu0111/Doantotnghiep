@@ -1,0 +1,69 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.Comment>
+@using PagedList.Mvc
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<section class="content-header">
+    <h1>
+        Thông tin Bình Luận
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang Chủ</a></li>
+        <li><a href="/Store/Book">Quản lý Bình luận</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <div class="input-group-btn">
+                        <a style="visibility: hidden" class="btn btn-primary" href="/Store/Book/Create">Create new</a>
+                    </div>
+                    <div class="box-tools" style="float:right; margin: 10px 10px 10px 10px">
+                        @using (Html.BeginForm("Index", "Comment"))
+                        {
+                            <div class="input-group input-group-sm" style="width: 250px;">
+                                <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Tìm kiếm" />
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <table class="table table-bordered table-hover" style="min-height:300px">
+                    <tr>
+                        <th style="width: 14%; text-align: center;">Tên Khách hàng</th>
+                        <th style="width: 14%; text-align: center;">Email</th>
+                        <th style="width: 10%; text-align: center;">Ngày</th>
+                        <th style="width: 28%; text-align: center;">Nội Dung</th>
+                        <th style="width: 14%; text-align: center;">Tên Sách</th>
+                        <th style="width: 18%; text-align: center;">Chức Năng</th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.User.FullName)</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.User.Email)</td>
+                            <td style="text-align: center;">@item.CreatedDate.ToShortDateString()</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.Content)</td>
+                            <td style="text-align: center;">@Html.DisplayFor(model => item.Book.Name)</td>
+                            <td class="Content1">
+                                <div style="text-align: center;" class="Content1">
+                                    <a class="btn btn-success" href="/Store/Comment/Reply/@item.CommentID">Phản hồi nhận xét khách hàng</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+            <div class="row">
+                <div class="col-sm-7">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

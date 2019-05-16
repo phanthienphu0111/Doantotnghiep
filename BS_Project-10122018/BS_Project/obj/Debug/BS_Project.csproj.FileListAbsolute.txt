@@ -1,0 +1,1769 @@
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\ApplicationInsights.config
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\BS_Project.dll.config
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\BS_Project.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\BS_Project.pdb
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csc.exe
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csc.exe.config
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csc.rsp
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csi.exe
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csi.exe.config
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csi.rsp
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.AppContext.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Console.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.Compression.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.Pipes.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Claims.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Threading.Thread.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.ValueTuple.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\vbc.exe
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\vbc.exe.config
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\vbc.rsp
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Antlr3.Runtime.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.SqlServer.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.Web.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.ApplicationInsights.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Newtonsoft.Json.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Helpers.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Mvc.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Optimization.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Razor.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\WebGrease.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.SqlServer.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Helpers.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Mvc.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Optimization.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Razor.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Newtonsoft.Json.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Antlr3.Runtime.pdb
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.Web.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\obj\Debug\BS_Project.dll
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\obj\Debug\BS_Project.pdb
+D:\Học Tập\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\obj\Debug\BS_Project.csprojResolveAssemblyReference.cache
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\ApplicationInsights.config
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\BS_Project.dll.config
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\BS_Project.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\BS_Project.pdb
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csc.exe
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csc.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csc.rsp
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csi.exe
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csi.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\csi.rsp
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.AppContext.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Console.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.Compression.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.IO.Pipes.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Claims.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Threading.Thread.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.ValueTuple.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\vbc.exe
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\vbc.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\vbc.rsp
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Antlr3.Runtime.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.SqlServer.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.Web.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.ApplicationInsights.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Newtonsoft.Json.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Helpers.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Mvc.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Optimization.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Razor.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\WebGrease.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\EntityFramework.SqlServer.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Helpers.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Mvc.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Optimization.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.Razor.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Newtonsoft.Json.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Antlr3.Runtime.pdb
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.AI.Web.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\obj\Debug\BS_Project.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\obj\Debug\BS_Project.pdb
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\PagedList.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\PagedList.Mvc.dll
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\PagedList.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\bin\PagedList.Mvc.xml
+D:\Hoc Tap\CHUYEN NGANH\DOAN THUC TAP TN\BS_Project\BS_Project\obj\Debug\BS_Project.csprojResolveAssemblyReference.cache
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\ApplicationInsights.config
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\BS_Project.dll.config
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\BS_Project.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\BS_Project.pdb
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\csc.exe
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\csc.exe.config
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\csc.rsp
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\csi.exe
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\csi.exe.config
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\csi.rsp
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.AppContext.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Console.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.IO.Compression.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.IO.Pipes.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Security.Claims.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Threading.Thread.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.ValueTuple.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\vbc.exe
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\vbc.exe.config
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\vbc.rsp
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Antlr3.Runtime.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\EntityFramework.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\EntityFramework.SqlServer.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.Web.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.ApplicationInsights.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Newtonsoft.Json.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\PagedList.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\PagedList.Mvc.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Helpers.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Mvc.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Optimization.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Razor.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.WebPages.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\WebGrease.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\EntityFramework.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\EntityFramework.SqlServer.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\PagedList.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\PagedList.Mvc.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Helpers.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Mvc.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Optimization.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.Razor.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.WebPages.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Newtonsoft.Json.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Antlr3.Runtime.pdb
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.AI.Web.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.dll
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.pdb
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.addtblhistoryBankCharging.resources
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.dropcolumnIDNumber.resources
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnFullNameInOrdersBook.resources
+H:\GitHub\Store2306\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnPaidInOrdersBook.resources
+D:\GitHub\BS_Project\BS_Project\bin\ApplicationInsights.config
+D:\GitHub\BS_Project\BS_Project\bin\BS_Project.dll.config
+D:\GitHub\BS_Project\BS_Project\bin\BS_Project.dll
+D:\GitHub\BS_Project\BS_Project\bin\BS_Project.pdb
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\csc.exe
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\csc.exe.config
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\csc.rsp
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\csi.exe
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\csi.exe.config
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\csi.rsp
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.AppContext.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Console.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.Compression.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.Pipes.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Claims.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Threading.Thread.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.ValueTuple.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\vbc.exe
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\vbc.exe.config
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\vbc.rsp
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\BS_Project\BS_Project\bin\Antlr3.Runtime.dll
+D:\GitHub\BS_Project\BS_Project\bin\EntityFramework.dll
+D:\GitHub\BS_Project\BS_Project\bin\EntityFramework.SqlServer.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.Web.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.ApplicationInsights.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\BS_Project\BS_Project\bin\Newtonsoft.Json.dll
+D:\GitHub\BS_Project\BS_Project\bin\PagedList.dll
+D:\GitHub\BS_Project\BS_Project\bin\PagedList.Mvc.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Helpers.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Mvc.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Optimization.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Razor.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\BS_Project\BS_Project\bin\WebGrease.dll
+D:\GitHub\BS_Project\BS_Project\bin\EntityFramework.xml
+D:\GitHub\BS_Project\BS_Project\bin\EntityFramework.SqlServer.xml
+D:\GitHub\BS_Project\BS_Project\bin\PagedList.xml
+D:\GitHub\BS_Project\BS_Project\bin\PagedList.Mvc.xml
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Helpers.xml
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Mvc.xml
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Optimization.xml
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.Razor.xml
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.xml
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\BS_Project\BS_Project\bin\Newtonsoft.Json.xml
+D:\GitHub\BS_Project\BS_Project\bin\Antlr3.Runtime.pdb
+D:\GitHub\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.Web.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.addtblhistoryBankCharging.resources
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.dropcolumnIDNumber.resources
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnFullNameInOrdersBook.resources
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnPaidInOrdersBook.resources
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.dropColumnCurrentQuantity.resources
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.dll
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.pdb
+D:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+H:\GitHub\BS_Project\BS_Project\bin\ApplicationInsights.config
+H:\GitHub\BS_Project\BS_Project\bin\BS_Project.dll.config
+H:\GitHub\BS_Project\BS_Project\bin\BS_Project.dll
+H:\GitHub\BS_Project\BS_Project\bin\BS_Project.pdb
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\csc.exe
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\csc.exe.config
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\csc.rsp
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\csi.exe
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\csi.exe.config
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\csi.rsp
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.AppContext.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Console.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.Compression.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.IO.Pipes.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Claims.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Threading.Thread.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.ValueTuple.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\vbc.exe
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\vbc.exe.config
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\vbc.rsp
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe
+H:\GitHub\BS_Project\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+H:\GitHub\BS_Project\BS_Project\bin\Antlr3.Runtime.dll
+H:\GitHub\BS_Project\BS_Project\bin\EntityFramework.dll
+H:\GitHub\BS_Project\BS_Project\bin\EntityFramework.SqlServer.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.Web.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.ApplicationInsights.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+H:\GitHub\BS_Project\BS_Project\bin\Newtonsoft.Json.dll
+H:\GitHub\BS_Project\BS_Project\bin\PagedList.dll
+H:\GitHub\BS_Project\BS_Project\bin\PagedList.Mvc.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Helpers.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Mvc.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Optimization.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Razor.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.dll
+H:\GitHub\BS_Project\BS_Project\bin\WebGrease.dll
+H:\GitHub\BS_Project\BS_Project\bin\EntityFramework.xml
+H:\GitHub\BS_Project\BS_Project\bin\EntityFramework.SqlServer.xml
+H:\GitHub\BS_Project\BS_Project\bin\PagedList.xml
+H:\GitHub\BS_Project\BS_Project\bin\PagedList.Mvc.xml
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Helpers.xml
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Mvc.xml
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Optimization.xml
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.Razor.xml
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.xml
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Deployment.xml
+H:\GitHub\BS_Project\BS_Project\bin\System.Web.WebPages.Razor.xml
+H:\GitHub\BS_Project\BS_Project\bin\Newtonsoft.Json.xml
+H:\GitHub\BS_Project\BS_Project\bin\Antlr3.Runtime.pdb
+H:\GitHub\BS_Project\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.AI.Web.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.dll
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.pdb
+H:\GitHub\BS_Project\BS_Project\bin\ClosedXML.dll
+H:\GitHub\BS_Project\BS_Project\bin\DocumentFormat.OpenXml.dll
+H:\GitHub\BS_Project\BS_Project\bin\ExcelNumberFormat.dll
+H:\GitHub\BS_Project\BS_Project\bin\FastMember.Signed.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+H:\GitHub\BS_Project\BS_Project\bin\System.IO.Packaging.dll
+H:\GitHub\BS_Project\BS_Project\bin\ClosedXML.xml
+H:\GitHub\BS_Project\BS_Project\bin\DocumentFormat.OpenXml.xml
+H:\GitHub\BS_Project\BS_Project\bin\ExcelNumberFormat.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.addtblhistoryBankCharging.resources
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.dropcolumnIDNumber.resources
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnFullNameInOrdersBook.resources
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnPaidInOrdersBook.resources
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.dropColumnCurrentQuantity.resources
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.Cache
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.pdb
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\ApplicationInsights.config
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\BS_Project.dll.config
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\BS_Project.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\BS_Project.pdb
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\csc.exe
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\csc.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\csc.rsp
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\csi.exe
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\csi.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\csi.rsp
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.AppContext.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Console.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.IO.Compression.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.IO.Pipes.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Security.Claims.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Threading.Thread.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.ValueTuple.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Xml.XPath.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\vbc.exe
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\vbc.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\vbc.rsp
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\VBCSCompiler.exe
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Antlr3.Runtime.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\ClosedXML.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\DocumentFormat.OpenXml.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\EntityFramework.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\EntityFramework.SqlServer.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\ExcelNumberFormat.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Facebook.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\FastMember.Signed.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.Web.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.ApplicationInsights.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.Owin.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Newtonsoft.Json.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Owin.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\PagedList.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\PagedList.Mvc.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.IO.Packaging.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Helpers.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Mvc.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Optimization.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Razor.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.WebPages.Deployment.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.WebPages.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.WebPages.Razor.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\WebGrease.dll
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\ClosedXML.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\DocumentFormat.OpenXml.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\EntityFramework.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\EntityFramework.SqlServer.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\ExcelNumberFormat.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Facebook.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.Owin.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\PagedList.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\PagedList.Mvc.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Helpers.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Mvc.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Optimization.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.Razor.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.WebPages.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.WebPages.Deployment.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Web.WebPages.Razor.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Newtonsoft.Json.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Antlr3.Runtime.pdb
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.AI.Web.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+D:\Hoc Tap\CHUYEN NGANH\DO AN TOT NGHIEP\BS_Project-master\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+D:\GitHub\BS_Project\BS_Project\bin\ClosedXML.dll
+D:\GitHub\BS_Project\BS_Project\bin\DocumentFormat.OpenXml.dll
+D:\GitHub\BS_Project\BS_Project\bin\ExcelNumberFormat.dll
+D:\GitHub\BS_Project\BS_Project\bin\Facebook.dll
+D:\GitHub\BS_Project\BS_Project\bin\FastMember.Signed.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.dll
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+D:\GitHub\BS_Project\BS_Project\bin\Owin.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+D:\GitHub\BS_Project\BS_Project\bin\System.IO.Packaging.dll
+D:\GitHub\BS_Project\BS_Project\bin\ClosedXML.xml
+D:\GitHub\BS_Project\BS_Project\bin\DocumentFormat.OpenXml.xml
+D:\GitHub\BS_Project\BS_Project\bin\ExcelNumberFormat.xml
+D:\GitHub\BS_Project\BS_Project\bin\Facebook.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.xml
+D:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+D:\GitHub\BSProject\BS_Project\bin\ApplicationInsights.config
+D:\GitHub\BSProject\BS_Project\bin\BS_Project.dll.config
+D:\GitHub\BSProject\BS_Project\bin\BS_Project.dll
+D:\GitHub\BSProject\BS_Project\bin\BS_Project.pdb
+D:\GitHub\BSProject\BS_Project\bin\roslyn\csc.exe
+D:\GitHub\BSProject\BS_Project\bin\roslyn\csc.exe.config
+D:\GitHub\BSProject\BS_Project\bin\roslyn\csc.rsp
+D:\GitHub\BSProject\BS_Project\bin\roslyn\csi.exe
+D:\GitHub\BSProject\BS_Project\bin\roslyn\csi.exe.config
+D:\GitHub\BSProject\BS_Project\bin\roslyn\csi.rsp
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\BSProject\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.AppContext.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Console.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.IO.Compression.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.IO.Pipes.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Security.Claims.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Threading.Thread.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.ValueTuple.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Xml.XPath.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GitHub\BSProject\BS_Project\bin\roslyn\vbc.exe
+D:\GitHub\BSProject\BS_Project\bin\roslyn\vbc.exe.config
+D:\GitHub\BSProject\BS_Project\bin\roslyn\vbc.rsp
+D:\GitHub\BSProject\BS_Project\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\BSProject\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\BSProject\BS_Project\bin\Antlr3.Runtime.dll
+D:\GitHub\BSProject\BS_Project\bin\ClosedXML.dll
+D:\GitHub\BSProject\BS_Project\bin\DocumentFormat.OpenXml.dll
+D:\GitHub\BSProject\BS_Project\bin\EntityFramework.dll
+D:\GitHub\BSProject\BS_Project\bin\EntityFramework.SqlServer.dll
+D:\GitHub\BSProject\BS_Project\bin\ExcelNumberFormat.dll
+D:\GitHub\BSProject\BS_Project\bin\Facebook.dll
+D:\GitHub\BSProject\BS_Project\bin\FastMember.Signed.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.Web.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.ApplicationInsights.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.Owin.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.Owin.Security.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\BSProject\BS_Project\bin\Newtonsoft.Json.dll
+D:\GitHub\BSProject\BS_Project\bin\Owin.dll
+D:\GitHub\BSProject\BS_Project\bin\PagedList.dll
+D:\GitHub\BSProject\BS_Project\bin\PagedList.Mvc.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\BSProject\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+D:\GitHub\BSProject\BS_Project\bin\System.IO.Packaging.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Helpers.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Mvc.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Optimization.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Razor.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Web.WebPages.dll
+D:\GitHub\BSProject\BS_Project\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\BSProject\BS_Project\bin\WebGrease.dll
+D:\GitHub\BSProject\BS_Project\bin\ClosedXML.xml
+D:\GitHub\BSProject\BS_Project\bin\DocumentFormat.OpenXml.xml
+D:\GitHub\BSProject\BS_Project\bin\EntityFramework.xml
+D:\GitHub\BSProject\BS_Project\bin\EntityFramework.SqlServer.xml
+D:\GitHub\BSProject\BS_Project\bin\ExcelNumberFormat.xml
+D:\GitHub\BSProject\BS_Project\bin\Facebook.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.Owin.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.Owin.Security.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+D:\GitHub\BSProject\BS_Project\bin\PagedList.xml
+D:\GitHub\BSProject\BS_Project\bin\PagedList.Mvc.xml
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Helpers.xml
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Mvc.xml
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Optimization.xml
+D:\GitHub\BSProject\BS_Project\bin\System.Web.Razor.xml
+D:\GitHub\BSProject\BS_Project\bin\System.Web.WebPages.xml
+D:\GitHub\BSProject\BS_Project\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\BSProject\BS_Project\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\BSProject\BS_Project\bin\Newtonsoft.Json.xml
+D:\GitHub\BSProject\BS_Project\bin\Antlr3.Runtime.pdb
+D:\GitHub\BSProject\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.AI.Web.xml
+D:\GitHub\BSProject\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.Migrations.addtblhistoryBankCharging.resources
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.Migrations.dropcolumnIDNumber.resources
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnFullNameInOrdersBook.resources
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.Migrations.addcolumnPaidInOrdersBook.resources
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.Migrations.dropColumnCurrentQuantity.resources
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.dll
+D:\GitHub\BSProject\BS_Project\obj\Debug\BS_Project.pdb
+H:\GitHub\BS_Project\BS_Project\bin\Facebook.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.dll
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+H:\GitHub\BS_Project\BS_Project\bin\Owin.dll
+H:\GitHub\BS_Project\BS_Project\bin\Facebook.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.xml
+H:\GitHub\BS_Project\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+H:\GitHub\BS_Project\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\ApplicationInsights.config
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\BS_Project.dll.config
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\BS_Project.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\BS_Project.pdb
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\csc.exe
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\csc.exe.config
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\csc.rsp
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\csi.exe
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\csi.exe.config
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\csi.rsp
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.AppContext.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Console.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.IO.Compression.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.IO.Pipes.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Security.Claims.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Threading.Thread.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.ValueTuple.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Xml.XPath.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\vbc.exe
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\vbc.exe.config
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\vbc.rsp
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\VBCSCompiler.exe
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Antlr3.Runtime.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\ClosedXML.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\DocumentFormat.OpenXml.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\EntityFramework.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\EntityFramework.SqlServer.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\ExcelNumberFormat.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Facebook.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\FastMember.Signed.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.Web.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.ApplicationInsights.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.Owin.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Newtonsoft.Json.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Owin.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\PagedList.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\PagedList.Mvc.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.IO.Packaging.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Helpers.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Mvc.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Optimization.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Razor.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.WebPages.Deployment.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.WebPages.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.WebPages.Razor.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\WebGrease.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\ClosedXML.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\DocumentFormat.OpenXml.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\EntityFramework.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\EntityFramework.SqlServer.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\ExcelNumberFormat.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Facebook.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.Owin.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\PagedList.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\PagedList.Mvc.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Helpers.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Mvc.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Optimization.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.Razor.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.WebPages.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.WebPages.Deployment.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Web.WebPages.Razor.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Newtonsoft.Json.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Antlr3.Runtime.pdb
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.AI.Web.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.dll
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.pdb
+D:\Công Viêc\Source\BS_Project-master\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\ApplicationInsights.config
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\BS_Project.dll.config
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\BS_Project.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\BS_Project.pdb
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\csc.exe
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\csc.exe.config
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\csc.rsp
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\csi.exe
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\csi.exe.config
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\csi.rsp
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.AppContext.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Console.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.Compression.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.Pipes.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Claims.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Threading.Thread.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.ValueTuple.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.XPath.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\vbc.exe
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\vbc.exe.config
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\vbc.rsp
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\VBCSCompiler.exe
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Antlr3.Runtime.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\ClosedXML.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\DocumentFormat.OpenXml.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\EntityFramework.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\EntityFramework.SqlServer.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\ExcelNumberFormat.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Facebook.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\FastMember.Signed.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.Web.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.ApplicationInsights.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Newtonsoft.Json.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Owin.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\PagedList.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\PagedList.Mvc.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.IO.Packaging.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Helpers.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Mvc.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Optimization.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Razor.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Deployment.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Razor.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\WebGrease.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\ClosedXML.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\DocumentFormat.OpenXml.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\EntityFramework.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\EntityFramework.SqlServer.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\ExcelNumberFormat.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Facebook.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\PagedList.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\PagedList.Mvc.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Helpers.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Mvc.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Optimization.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.Razor.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Deployment.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Razor.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Newtonsoft.Json.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Antlr3.Runtime.pdb
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.AI.Web.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.pdb
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Common.dll
+D:\Công Viêc\Source\BS_Project-15112018\BS_Project\bin\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\ApplicationInsights.config
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\BS_Project.dll.config
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\BS_Project.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\BS_Project.pdb
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\csc.exe
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\csc.exe.config
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\csc.rsp
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\csi.exe
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\csi.exe.config
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\csi.rsp
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.AppContext.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Console.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.IO.Pipes.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Claims.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Threading.Thread.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\vbc.exe
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\vbc.exe.config
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\vbc.rsp
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Antlr3.Runtime.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\ClosedXML.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Common.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\DocumentFormat.OpenXml.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\EntityFramework.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\ExcelNumberFormat.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Facebook.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\FastMember.Signed.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Newtonsoft.Json.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Owin.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\PagedList.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\PagedList.Mvc.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.IO.Packaging.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Helpers.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Mvc.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Optimization.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Razor.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\WebGrease.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\ClosedXML.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\DocumentFormat.OpenXml.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\EntityFramework.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\ExcelNumberFormat.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Facebook.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\PagedList.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\PagedList.Mvc.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Helpers.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Mvc.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Optimization.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.Razor.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Newtonsoft.Json.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Antlr3.Runtime.pdb
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\BS_Project\obj\Debug\BS_Project.pdb
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\ApplicationInsights.config
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\BS_Project.dll.config
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\BS_Project.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\BS_Project.pdb
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\csc.exe
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\csc.exe.config
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\csc.rsp
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\csi.exe
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\csi.exe.config
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\csi.rsp
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.AppContext.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Console.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.IO.Pipes.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Security.Claims.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Threading.Thread.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\vbc.exe
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\vbc.exe.config
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\vbc.rsp
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Antlr3.Runtime.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\ClosedXML.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Common.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\DocumentFormat.OpenXml.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\EntityFramework.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\ExcelNumberFormat.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Facebook.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\FastMember.Signed.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.Owin.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.Owin.Security.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Newtonsoft.Json.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Owin.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\PagedList.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\PagedList.Mvc.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.IO.Packaging.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Helpers.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Mvc.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Optimization.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Razor.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.WebPages.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\WebGrease.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\ClosedXML.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\DocumentFormat.OpenXml.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\EntityFramework.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\ExcelNumberFormat.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Facebook.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.Owin.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.Owin.Security.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\PagedList.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\PagedList.Mvc.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Helpers.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Mvc.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Optimization.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.Razor.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.WebPages.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Newtonsoft.Json.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Antlr3.Runtime.pdb
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\BS_Project\obj\Debug\BS_Project.pdb
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ApplicationInsights.config
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\BS_Project.dll.config
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\BS_Project.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\BS_Project.pdb
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csc.exe
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csc.exe.config
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csc.rsp
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csi.exe
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csi.exe.config
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csi.rsp
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.AppContext.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Console.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.Pipes.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Claims.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Threading.Thread.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\vbc.exe
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\vbc.exe.config
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\vbc.rsp
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Antlr3.Runtime.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ClosedXML.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Common.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DocumentFormat.OpenXml.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ExcelNumberFormat.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Facebook.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\FastMember.Signed.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Newtonsoft.Json.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Owin.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.Mvc.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.IO.Packaging.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Helpers.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Mvc.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Optimization.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Razor.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\WebGrease.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ClosedXML.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DocumentFormat.OpenXml.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ExcelNumberFormat.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Facebook.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.Mvc.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Helpers.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Mvc.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Optimization.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Razor.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Newtonsoft.Json.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Antlr3.Runtime.pdb
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.pdb
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\PayPal.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\PayPal.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Data.v17.1.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Printing.v17.1.Core.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Utils.v17.1.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Net.Http.Formatting.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Http.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Data.v17.1.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Printing.v17.1.Core.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Utils.v17.1.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Net.Http.Formatting.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Http.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.dll.licenses
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ApplicationInsights.config
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\BS_Project.dll.config
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\BS_Project.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\BS_Project.pdb
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\csc.exe
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\csc.exe.config
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\csc.rsp
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\csi.exe
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\csi.exe.config
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\csi.rsp
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.AppContext.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Console.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.Pipes.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Claims.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Threading.Thread.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\vbc.exe
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\vbc.exe.config
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\vbc.rsp
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Antlr3.Runtime.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ClosedXML.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Common.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Data.v17.1.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Printing.v17.1.Core.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Utils.v17.1.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DocumentFormat.OpenXml.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\EntityFramework.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ExcelNumberFormat.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Facebook.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\FastMember.Signed.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Newtonsoft.Json.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Owin.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\PagedList.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\PagedList.Mvc.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\PayPal.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.IO.Packaging.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Net.Http.Formatting.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Helpers.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Http.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Mvc.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Optimization.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Razor.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\WebGrease.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Common.pdb
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ClosedXML.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Data.v17.1.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Printing.v17.1.Core.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Utils.v17.1.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DocumentFormat.OpenXml.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\EntityFramework.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ExcelNumberFormat.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Facebook.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\PagedList.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\PagedList.Mvc.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\PayPal.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Net.Http.Formatting.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Http.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Helpers.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Mvc.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Optimization.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.Razor.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Newtonsoft.Json.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Antlr3.Runtime.pdb
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.dll.licenses
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.pdb
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\BS_Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csprojAssemblyReference.cache
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.Initial.resources
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.check2.resources
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.changeFoundedDate.resources
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.Migrations.addColumnAddress.resources
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.GenerateResource.cache
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.dll.licenses
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.pdb
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ApplicationInsights.config
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\BS_Project.dll.config
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\BS_Project.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\BS_Project.pdb
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csc.exe
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csc.exe.config
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csc.rsp
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csi.exe
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csi.exe.config
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\csi.rsp
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.AppContext.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Console.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Threading.Thread.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\vbc.exe
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\vbc.exe.config
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\vbc.rsp
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Antlr3.Runtime.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ClosedXML.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Common.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\DocumentFormat.OpenXml.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ExcelNumberFormat.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Facebook.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\FastMember.Signed.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Web.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Newtonsoft.Json.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Owin.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.Mvc.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\PayPal.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.IO.Packaging.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Helpers.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Http.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Mvc.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Optimization.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Razor.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\WebGrease.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Common.pdb
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ClosedXML.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Data.v17.1.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Printing.v17.1.Core.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Utils.v17.1.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\DocumentFormat.OpenXml.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ExcelNumberFormat.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Facebook.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\PagedList.Mvc.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\PayPal.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Http.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Helpers.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Mvc.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Optimization.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.Razor.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Newtonsoft.Json.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Antlr3.Runtime.pdb
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.AI.Web.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\bin\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\BS_Project-10122018\BS_Project\obj\Debug\BS_Project.csproj.CopyComplete

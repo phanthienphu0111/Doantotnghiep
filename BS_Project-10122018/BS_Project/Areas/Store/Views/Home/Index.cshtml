@@ -1,0 +1,139 @@
+﻿@model PagedList.IPagedList<BS_Project.EF.Book>
+@using PagedList.Mvc
+@using BS_Project.EF
+@using BS_Project.DAO;
+<link href="~/Areas/Store/Content/metisMenu.min.css" rel="stylesheet" />
+<link href="~/Areas/Store/Content/timeline.css" rel="stylesheet" />
+@*<link href="~/Areas/Store/Content/startmin.css" rel="stylesheet" />*@
+@*<link href="~/Areas/Store/Content/morris.css" rel="stylesheet" />*@
+@*<link href="~/Areas/Store/Content/font-awesome.min.css" rel="stylesheet" />*@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<section class="content-header">
+    <h1>
+        TRANG CHỦ
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Trang Chủ</a></li>
+        <li><a href="/Store/Home/Index">Trang Chủ</a></li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-tools" style="float:right; margin: 10px 10px 10px 10px">
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+                    {
+
+                        <div class="input-group input-group-sm" style="width: 250px;">
+                            <input type="text" value="@ViewBag.SearchString" name="searchString" class="form-control pull-right" placeholder="Tìm kiếm...">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="box-header">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" style="font-size: 40px;">26</div>
+                                    <div>Bình Luận</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/Comment/Index">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary" style="border-color: #5cb85c;">
+                        <div class="panel-heading" style="border-color: #5cb85c; background-color: #5cb85c; color: #fff;">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" style="font-size: 40px;">26</div>
+                                    <div>Tài Khoản</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/AccountAdmin/Profile">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary" style="border-color: #f0ad4e;">
+                        <div class="panel-heading" style="border-color: #f0ad4e; color: #fff; background-color: #f0ad4e;">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-shopping-cart fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    @*@{
+                                        int count = 0;
+                                        count = CommentsDAO.CountTotal();
+                                        <div class="huge" style="font-size: 40px;">@count</div>
+                                    }*@
+                                    <div class="huge" style="font-size: 40px;">30</div>
+                                    <div>Đơn Hàng</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/Order/Index">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary" style="border-color: #d95348;">
+                        <div class="panel-heading" style="border-color: #d95348; color: #fff; background-color: #d95348;">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-support fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" style="font-size: 40px;">26</div>
+                                    <div>Thống Kê</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Store/Statistical/Index">
+                            <div class="panel-footer">
+                                <span class="pull-left">Xem Chi Tiết</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

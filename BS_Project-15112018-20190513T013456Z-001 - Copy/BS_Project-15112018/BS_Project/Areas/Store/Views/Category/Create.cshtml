@@ -1,0 +1,108 @@
+﻿@model BS_Project.EF.Category
+@{
+    ViewBag.Title = "Store - Quản lý Thể Loại - Create";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script>
+        $('#txtInput').on('input', function () {
+            var text = $("#txtInput").val();
+            if (text === "") {
+                $("#nullName").fadeIn(2000);
+                $('#txtInput').css("border", "1px solid red");
+                $("#btnSubmit").prop("disabled", true);
+            } else {
+                $.ajax({
+                    data: {
+                        name: text
+                    },
+                    url: '/Category/CheckNameInput',
+                    dataType: 'json',
+                    type: 'POST',
+                    success: function (res) {
+                        if (res.status) {
+                            $("#validateNameBook").hide();
+                            $("#nullName").hide();
+                            $('#txtInput').css("border", "0");
+                            $('#txtInput').css("border", "1px solid #d2d6de");
+                            $("#btnSubmit").prop("disabled", false);
+                        } else {
+                            $("#validateNameBook").fadeIn(2000);
+                            $('#txtInput').css("border", "1px solid red");
+                            $("#btnSubmit").prop("disabled", true);
+                        }
+                    }
+                });
+            }
+
+        });
+
+        $('#txtInput').click(function () {
+            $("#nullName").fadeIn(2000);
+            $('#txtInput').css("border", "1px solid red");
+            $("#btnSubmit").prop("disabled", true);
+        });
+    </script>
+
+}
+
+<section class="content-header">
+    <h1>
+        Insert
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/Store/Category/Index">Category Management</a></li>
+        <li class="active">Insert</li>
+    </ol>
+</section>
+
+@using (Html.BeginForm("Create", "Category", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <section class="content">
+        <!-- SELECT2 EXAMPLE -->
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <h3 class="box-title">New Category</h3>
+
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        @*<div class="form-group">
+                                <label>CategoryID</label>
+                                <input type="text" class="form-control select2" disabled="disabled" style="width: 100%;"></input>
+
+                            </div>*@
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <!-- /.form-group -->
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name)
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @style = "width: 100%;", @id = "txtInput" } })
+                            <font style="color:red;display:none" id="validateNameBook"><i class="fa fa-times-circle-o"></i>Tên thể loại sách đã tồn tại. Vui lòng nhập thể loại khác</font>
+                            <font style="color:red;display:none" id="nullName"><i class="fa fa-times-circle-o"></i>Tên thể loại không được bỏ trống.</font>
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                        <!-- /.form-group -->
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary" id="btnSubmit">Create</button>
+                            <a href="/Store/Category" class="btn btn-info pull-right">Back</a>
+                        </div>
+                    </div>
+                    <!-- /.col -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+
+        </div>
+        <!-- /.box -->
+
+    </section>
+
+}
+

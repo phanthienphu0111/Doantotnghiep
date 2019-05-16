@@ -1,0 +1,120 @@
+﻿@model List<OrdersBook>
+
+@{
+    ViewBag.Title = "History Order";
+}
+@section Styles{
+    <link href="~/Content/ProfileCss/style.css" rel="stylesheet" />
+    <link href="~/Content/ProfileCss/font-awesome.min.css" rel="stylesheet" />
+}
+
+<div class="container">
+    <div class="row">
+        @*<div class="col-md-12">
+                @Html.Action("_Sidebar", new { username = Request.QueryString["username"] })
+            </div>*@
+        <div class="col-md-12">
+            <!-- Edit Personal Info -->
+            <div class="widget personal-info">
+                <h3 class="widget-header">Lịch Sử Đặt Hàng</h3>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Mã số</th>
+                                <th>Ngày mua</th>
+                                <th>Sản phẩm mua</th>
+                                <th>Tổng tiền</th>
+                                <th>Trạng thái</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (OrdersBook ordersBookItem in Model.OrderBy(o => o.Status))
+                            {
+                                <tr style="@(ordersBookItem.Status == 4 ? "background:#dff0d8" : "")">
+                                    <td>@Html.DisplayFor(o => ordersBookItem.OrderID)</td>
+                                    <td>@Html.DisplayFor(o => ordersBookItem.FoundedDate)</td>
+                                    <td>
+                                        <table class="table table-bordered">
+                                            @foreach (OrdersDetail ordersDetailItem in ordersBookItem.OrdersDetails)
+                                            {
+                                                if (ordersDetailItem.Book != null)
+                                                {
+                                                    <tr>
+                                                        <td>@Html.DisplayFor(o => ordersDetailItem.Book.Name)</td>
+                                                        <td>@Html.DisplayFor(o => ordersDetailItem.Book.Price)</td>
+                                                        <td>@Html.DisplayFor(o => ordersDetailItem.Quantity)</td>
+                                                        <td>@Html.DisplayFor(o => ordersDetailItem.Total)</td>
+                                                    </tr>
+                                                }
+                                            }
+                                        </table>
+                                    </td>
+                                    <td>@ordersBookItem.OrdersDetails.Sum(d => d.Total)</td>
+                                    <td>
+                                        @if (ordersBookItem.Canceled == true)
+                                        {
+                                            <span>Đã hủy đơn</span>
+                                        }
+                                        else
+                                        {
+                                            if (ordersBookItem.Status == 0)
+                                            {
+                                                <span>Đặt Hàng Thành Công</span>
+                                            }
+                                            else
+                                            {
+                                                if(ordersBookItem.Status == 1)
+                                                {
+                                                    <span>Đã tiếp nhận đơn hàng</span>
+                                                }
+                                                else
+                                                {
+                                                    if(ordersBookItem.Status == 2)
+                                                    {
+                                                        <span>Đang đóng gói</span>
+                                                    }
+                                                    else
+                                                    {
+                                                        if(ordersBookItem.Status == 3)
+                                                        {
+                                                            <span>Đang vận chuyển</span>
+                                                        }
+                                                        else
+                                                        {
+                                                            if(ordersBookItem.Status == 4)
+                                                            {
+                                                                <span>Giao hàng thành công</span>
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                    </td>
+                                    <td>
+                                        @if ((ordersBookItem.Status == 0 || ordersBookItem.Status == 1) && ordersBookItem.Canceled == false && ordersBookItem.Paid == false)
+                                        {
+                                            using (Html.BeginForm("CancelOrder", "ProfileUser", FormMethod.Post, null))
+                                            {
+                                                <input type="hidden" name="Id" value="@ordersBookItem.OrderID" />
+                                                <input type="hidden" name="returnUrl" value="@Request.Url" />
+                                                <button type="submit" onclick="return confirm('Bạn xác nhận hủy đơn đặt hàng này?')" class="btn btn-xs btn-danger">Hủy đặt hàng</button>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <label class="oi oi-dashboard">Đã Thanh Toán</label>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

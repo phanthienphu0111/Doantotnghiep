@@ -1,0 +1,35 @@
+D:\Công Viêc\Source\BS_Project-15112018\Common\bin\Debug\Common.dll
+D:\Công Viêc\Source\BS_Project-15112018\Common\bin\Debug\Common.pdb
+D:\Công Viêc\Source\BS_Project-15112018\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\Công Viêc\Source\BS_Project-15112018\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Công Viêc\Source\BS_Project-15112018\Common\obj\Debug\Common.dll
+D:\Công Viêc\Source\BS_Project-15112018\Common\obj\Debug\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-15112018\Common\bin\Debug\Common.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\Common\bin\Debug\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-15112018\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\BS_Project-15112018\Common\obj\Debug\Common.dll
+C:\Users\quoct\Downloads\BS_Project-15112018\Common\obj\Debug\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-15112018\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\quoct\Downloads\BS_Project-26112018\Common\bin\Debug\Common.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\Common\bin\Debug\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-26112018\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\BS_Project-26112018\Common\obj\Debug\Common.dll
+C:\Users\quoct\Downloads\BS_Project-26112018\Common\obj\Debug\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-26112018\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\quoct\Downloads\BS_Project-10122018\Common\bin\Debug\Common.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\Common\bin\Debug\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-10122018\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\BS_Project-10122018\Common\obj\Debug\Common.dll
+C:\Users\quoct\Downloads\BS_Project-10122018\Common\obj\Debug\Common.pdb
+C:\Users\quoct\Downloads\BS_Project-10122018\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\Common\bin\Debug\Common.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\Common\bin\Debug\Common.pdb
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\Common\obj\Debug\Common.dll
+C:\Users\quoct\Downloads\PROJECT\BS_Project-10122018\Common\obj\Debug\Common.pdb
+C:\Users\user\Downloads\BS_Project-10122018\Common\bin\Debug\Common.dll
+C:\Users\user\Downloads\BS_Project-10122018\Common\bin\Debug\Common.pdb
+C:\Users\user\Downloads\BS_Project-10122018\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\user\Downloads\BS_Project-10122018\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\BS_Project-10122018\Common\obj\Debug\Common.dll
+C:\Users\user\Downloads\BS_Project-10122018\Common\obj\Debug\Common.pdb

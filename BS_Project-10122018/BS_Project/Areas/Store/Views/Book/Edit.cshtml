@@ -1,0 +1,152 @@
+﻿@model BS_Project.EF.Book
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/datepicker.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap-datepicker.js"></script>
+
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', function (e) {
+            e.preventDefault();
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+            };
+            finder.popup();
+        })
+        var editor = CKEDITOR.replace('txtcontent', {
+            customConfig: '/Scripts/ckeditor/config.js'
+        })
+        var editor = CKEDITOR.replace('txtcontentDetail', {
+            customConfig: '/Scripts/ckeditor/config.js'
+        })
+    </script>
+}
+<section class="content-header">
+    <h1>
+        Edit book
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="/Store/Book/Index">Book Management</a></li>
+        <li class="active">Edit</li>
+    </ol>
+</section>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.BookID)
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-body">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Name)</label>
+                            <div>
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Authors.First().Name, "AuthorID")</label>
+                            <div>
+                                @Html.DropDownList("AuthorID", null, htmlAttributes: new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Thể Loại</label>
+                            <div>
+                                @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control", required = "required" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.PublisherID, "PublisherID")</label>
+                            <div>
+                                @Html.DropDownList("PublisherID", null, htmlAttributes: new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.PublisherID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.PublicationDate)</label>
+                            <div>
+                                @Html.EditorFor(model => model.PublicationDate, new { htmlAttributes = new { @class = "form-control datepicker_from", @id = "date-start", @runat = "server", @Required = "Required" } })
+                                @Html.ValidationMessageFor(model => model.PublicationDate, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <!-- form-group -->
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Overview)
+                            @Html.Raw(Html.TextAreaFor(model => model.Overview, new { htmlAttributes = new { @class = "form-control select9", @style = "width: 100%;" }, id = "txtcontent" }))
+                            @Html.ValidationMessageFor(model => model.Overview, "", new { @class = "text-danger" })
+                        </div>
+                        <!-- /.form-group -->
+                        <!-- form-group -->
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Details)
+                            @Html.Raw(Html.TextAreaFor(model => model.Details, new { htmlAttributes = new { @class = "form-control select2", @style = "width: 100%;" }, id = "txtcontentDetail" }))
+                            @Html.ValidationMessageFor(model => model.Details, "", new { @class = "text-danger" })
+                        </div>
+                        <!-- /.form-group -->
+                        @*<div class="form-group">
+            <label>@Html.LabelFor(model => model.Details)</label>
+            <div>
+                @Html.EditorFor(model => model.Details, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Details, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.Price)</label>
+                            <div>
+                                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.TotalQuantity)</label>
+                            <div>
+                                @Html.EditorFor(model => model.TotalQuantity, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.TotalQuantity, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>@Html.LabelFor(model => model.ImageBoolID, "ImageBoolID")</label>
+                            <div>
+                                @Html.DropDownList("ImageBoolID", null, htmlAttributes: new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.ImageBoolID, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Image.ImageURL)
+                            <input class="form-control select2" name="txtImageURL" id="txtImage" value="@Html.DisplayFor(model => model.Image.ImageURL)" />
+                            <a id="btnSelectImage" href="#">Select Image</a>
+                            @Html.ValidationMessageFor(model => model.Image.ImageURL, "", new { @class = "text-danger" })
+                        </div>
+                        <!--Image-->
+                        <div class="ImageContainer">
+                            <img id="img" src="@Html.DisplayFor(model => model.Image.ImageURL)" width="80" />
+                        </div>
+                        <!-- /.form-group -->
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Save" class="btn btn-success" />
+                                <button class="btn btn-default">@Html.ActionLink("Back to List", "Index")</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script>
+    $(function () {
+        $('.datepicker_from').datepicker({ format: "mm/dd/yyyy" }).on('changeDate', function (ev) {
+            $(this).datepicker('hide');
+        });
+    });
+</script>

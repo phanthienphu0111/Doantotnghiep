@@ -1,0 +1,101 @@
+﻿@model BS_Project.EF.Book
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Store/Views/Shared/_Layout.cshtml";
+}
+<section class="content-header">
+    <h1>
+        Thông Tin Sách
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Store/Home/Index"><i class="fa fa-dashboard"></i>Trang Chủ</a></li>
+        <li><a href="/Store/Book/Index">Quản Lý Sách</a></li>
+        <li><a href="#">Chi Tiết</a></li>
+    </ol>
+</section>
+<div class="col-xs-12">
+    <div class="box">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PublicationDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PublicationDate)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Overview)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Overview)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Details)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Details)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.TotalQuantity)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TotalQuantity)
+            </dd>
+
+          
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ViewCount)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ViewCount)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Image.ImageURL)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Image.ImageURL)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Publisher.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Publisher.Name)
+            </dd>
+
+        </dl>
+        <p>
+            <button class="btn btn-success" href="">Sửa</button>
+            <a class="btn btn-default" href="/Store/Book/Index">Trở về Trang chủ</a>
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,10 @@
+﻿@using BS_Project.Models;
+@model IEnumerable<BS_Project.EF.Publisher>
+
+
+@foreach (var item in Model)
+{
+    <li><a href="@Url.Action("ShowBook","Book", new { condition = 2, idpublisher = item.PublisherID})">@item.Name</a></li>
+}
+
+
